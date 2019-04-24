@@ -7,7 +7,7 @@ import {FooterSection} from "../components/Footer"
 const PortfolioPage = () => (
   <div
   style={{
-    backgroundColor: `#3C3C3C`,
+    backgroundColor: `#191919`,
     margin: `0`
   }}
 >

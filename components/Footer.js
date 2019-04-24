@@ -1,6 +1,6 @@
-import React from "react"
-import styled, { keyframes } from "styled-components"
-import Link from 'next/link'
+import React from "react";
+import styled, { keyframes } from "styled-components";
+import Github from "./github-10-xxl.png";
 
 const glitch = keyframes`
   0% {
@@ -29,37 +29,52 @@ const glitch = keyframes`
   }
 `;
 
-const Footer = styled.section`
-background-color: #3C3C3C;
-margin-top: 14em;
-padding-bottom: 8em;
-width: 100%;
-display: flex;
-flex-direction: row;
+const Footer = styled.div`
+  -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+  position: relative;
+  margin-top: -5em;
+  padding-top: 18em;
+  padding-bottom: 6em;
+  background-color: #191919;
+  &:after {
+    -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+    clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+    background: #191919;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -82%;
+    right: 0;
+    height: 100%;
+    display: block;
+    z-index: 9;
+  }
 `;
 
 const GlitchFont = styled.a`
-  font-family: 'Rubik Mono One', sans-serif;
+  font-family: "Rubik Mono One", sans-serif;
   font-size: 2.6em;
-  color: #F5F5F5;
-  position:absolute;
+  color: #f5f5f5;
+  position: absolute;
   left: 10%;
   transform: translate(50%, -100%);
   margin: 0;
   text-decoration: none;
+  padding-bottom: 1em;
   &:before,
-  &:after{
+  &:after {
     display: block;
-    content: 'Contact';
+    content: "Contact";
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    opacity: .8;
+    opacity: 0.8;
   }
   &:after {
-    color: #D81159;
+    color: #d81159;
     z-index: -2;
   }
   &:before {
@@ -68,36 +83,38 @@ const GlitchFont = styled.a`
   }
   &:hover {
     &:before {
-      animation: ${glitch} 8s cubic-bezier(.25, .46, .45, .94) both infinite
+      animation: ${glitch} 8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
     }
     &:after {
-      animation: ${glitch} 8s cubic-bezier(.25, .46, .45, .94) reverse both infinite
+      animation: ${glitch} 8s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both
+        infinite;
     }
   }
 `;
 
 const GlitchFont2 = styled.a`
-  font-family: 'Rubik Mono One', sans-serif;
+  font-family: "Rubik Mono One", sans-serif;
   font-size: 2.6em;
-  color: #F5F5F5;
-  position:absolute;
+  color: #f5f5f5;
+  position: absolute;
   left: 30%;
   transform: translate(150%, -100%);
   margin: 0;
   text-decoration: none;
+  padding-bottom: 1em;
   &:before,
-  &:after{
+  &:after {
     display: block;
-    content: 'Github';
+    content: "Github";
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    opacity: .8;
+    opacity: 0.8;
   }
   &:after {
-    color: #D81159;
+    color: #d81159;
     z-index: -2;
   }
   &:before {
@@ -106,37 +123,77 @@ const GlitchFont2 = styled.a`
   }
   &:hover {
     &:before {
-      animation: ${glitch} 8s cubic-bezier(.25, .46, .45, .94) both infinite
+      animation: ${glitch} 8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
     }
     &:after {
-      animation: ${glitch} 8s cubic-bezier(.25, .46, .45, .94) reverse both infinite
+      animation: ${glitch} 8s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both
+        infinite;
     }
   }
 `;
 
 const Paragraph = styled.p`
-  color: #F5F5F5;
+  color: #f5f5f5;
   font-size: 2em;
-  font-family: 'Rajdhani', sans-serif;
-  transform: translate(150%, 0%);
+  font-family: "Rajdhani", sans-serif;
+  padding-left: 20%;
+`;
+
+const Greeting = styled.p`
+  color: #f5f5f5;
+  font-size: 1.6em;
+  font-family: "Rajdhani", sans-serif;
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: vertical-rl;
+  position: absolute;
+  top: 8em;
+  right: 1em;
+  letter-spacing: 2px;
+`;
+
+const GithubLogo = styled.img`
+  transform: translate(2200%, -190%);
+`;
+
+const ButtonSpread = styled.button`
+  position: absolute;
+  left: 14px;
+  bottom: 14px;
+  width: 50px;
+  height: 50px;
+  background-color: #2fbf71;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+  z-index: -1;
+  &:hover {
+    transform: scale(17.5);
+  }
+`;
+
+const Hidden = styled.p`
+  position: absolute;
+  left: 30px;
+  bottom: 97px;
+  color: #191919;
+  font-size: 2em;
+  font-family: "Rajdhani", sans-serif;
 `;
 
 const FooterSection = () => (
-    <Footer id="contact">
-      <a href="mailto:grahlsan@gmail.com">
-        <GlitchFont>
-        Contact
-        </GlitchFont>
-      </a><Paragraph>grahlsan@gmail.com</Paragraph>
-      <a href="https://github.com/tantsandras">
-        <GlitchFont2>
-        Github
-        </GlitchFont2>
-      </a>
-    </Footer>
-)
+  <Footer id="contact">
+    <GlitchFont>Contact</GlitchFont>
+    <GithubLogo src={Github} width="50px" height="50px" alt="Github logo" />
+    <GlitchFont2 href="https://github.com/tantsandras">Github</GlitchFont2>
 
-export {
-    FooterSection,
-    glitch
-}
+    <Paragraph>grahlsan@gmail.com</Paragraph>
+    <ButtonSpread />
+    <Hidden>Feel free to say hi ---></Hidden>
+    <Greeting>--- Drop me a line ---</Greeting>
+  </Footer>
+);
+
+export { FooterSection, glitch };

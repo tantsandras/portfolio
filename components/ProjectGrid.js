@@ -1,6 +1,6 @@
 import styled, { keyframes } from "styled-components";
 import Projects from "./Projects";
-import { Jo, Space, Pest, Sports, Plastic } from "./ProjectThumbnails";
+import { Jo, Space, Sports, Plastic } from "./ProjectThumbnails";
 
 const Grid = styled.div`
   margin: 6em 0  0 auto;
@@ -8,8 +8,8 @@ const Grid = styled.div`
   height: 100vw;
   width: 90%;
   grid-template-columns: 30% 30%;
-  grid-template-rows: 500px 500px;
-  grid-gap: 10%;
+  grid-template-rows: 600px 600px;
+  grid-gap: 20%;
 `;
 
 const ProjectBoxes = styled.div`
@@ -18,7 +18,7 @@ const ProjectBoxes = styled.div`
   position: relative;
   background-color: rgba(216, 17, 89, 0.8);
   padding: 30px 15px 20px;
-  transform: translate(20%, -20%);
+  transform: translate(40%, -80px);
 `;
 
 const type = keyframes`
@@ -34,7 +34,8 @@ const type = keyframes`
 
 const ProjectTitles = styled.h3`
   font-family: 'Rubik Mono One', sans-serif;
-  margin-left: -3.4em;
+  margin-left: -4.6em;
+  margin-top: 2.4em;
   text-transform: uppercase;
   font-size: 3em;
   color: #f5f5f5;
@@ -55,54 +56,16 @@ const ProjectDescription = styled.p`
 export default () => (
   <Grid>
 
-     <Projects>
-      <Jo />
-      <ProjectBoxes>
-        <ProjectTitles>Rarely Jovial</ProjectTitles>
-
-      <ProjectDescription>
-        A blog made with Handlebars, Express, Node.js and Postgres. I made it on
-        my spare time for a friend.
-      </ProjectDescription>
-      </ProjectBoxes>
-    </Projects>
-
     <Projects>
       <Space />
       <ProjectBoxes>
         <ProjectTitles>Space Explorer</ProjectTitles>
       <ProjectDescription>
         Made with GatsbyJs and Canvas, the "Great Gatsby - Space Explorer" game
-        is a personal project that I built to try out Gatsby.
+        is a personal project that I built because I had never used Canvas before. And because, you know, ...space. 
       </ProjectDescription>
       </ProjectBoxes>
     </Projects>
-
-   
-    <Projects>
-      <Sports />
-      <ProjectBoxes>
-        <ProjectTitles>Casual Sports</ProjectTitles>
-
-      <ProjectDescription>
-        An app that aims to connect people looking to do sports.
-      </ProjectDescription>
-      </ProjectBoxes>
-    </Projects>
-
-        {/* <Projects>
-      <Pest />
-      <ProjectBoxes> 
-        <ProjectTitles>Pest Alert</ProjectTitles>
- 
-      <ProjectDescription>
-        An app made for CABI - Plantwise that takes in risk levels of pests in
-        Kenya, Ghana and Zambia from an API and displays information about the
-        pests, how to monitor, prevent and how to treat the affected crops.
-      </ProjectDescription>
-      </ProjectBoxes>
-    </Projects> */}
-
     <Projects>
       <Plastic />
       <ProjectBoxes>
@@ -110,9 +73,31 @@ export default () => (
 
       <ProjectDescription>
         A project done at Athena Hackathon 2019, with the aim of solving the
-        plastic crisis
+        plastic crisis. It's made with React, Gatsby.js and D3. It's supposed to be a marketplace where businesses can shop around for existing projects that can either replace, recycle or dispose of plastic.
       </ProjectDescription>
       </ProjectBoxes>
     </Projects>
+    <Projects>
+      <Jo />
+      <ProjectBoxes>
+        <ProjectTitles>Rarely Jovial</ProjectTitles>
+
+      <ProjectDescription>
+        Rarely Jovial is a blog I made with Handlebars, Express, Node.js and PostgreSQL. It was a personal project that I tinkered with on my spare time, and unfortunately I didn't have time to finish it, but it was good backend practice.
+      </ProjectDescription>
+      </ProjectBoxes>
+    </Projects>
+    <Projects>
+      <Sports />
+      <ProjectBoxes>
+        <ProjectTitles>Casual Sports</ProjectTitles>
+
+      <ProjectDescription>
+        This is an app that wants to connect commitmentphobes and chillers who want to play sports. On the app, you can either sign your team up to play against other teams, see what sport events are going on in London through displaying events from the Meetup API, see what sport events are going on near you, or add and organise sport events.
+
+      </ProjectDescription>
+      </ProjectBoxes>
+    </Projects>
+ 
   </Grid>
 );
