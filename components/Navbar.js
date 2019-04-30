@@ -40,6 +40,7 @@ flex-direction: row;
 
 & ${Navbar}:nth-child(1):hover {
   color: #ED7D3A;
+  cursor: pointer; 
 }
   
 & ${Navbar}:nth-child(2) {
@@ -72,6 +73,7 @@ flex-direction: row;
 
 & ${Navbar}:nth-child(3):hover {
   color: #ED7D3A;
+  cursor: pointer; 
 }
 
 & ${Navbar}:nth-child(4) {
@@ -90,6 +92,7 @@ flex-direction: row;
 
 & ${Navbar}:nth-child(4):hover {
   color: #ED7D3A;
+  cursor: pointer; 
 }
 
 & ${Navbar}:nth-child(5) {
