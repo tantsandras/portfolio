@@ -37,6 +37,7 @@ const Footer = styled.div`
   margin-top: -5em;
   padding-top: 18em;
   padding-bottom: 6em;
+  overflow: shidden;
   background-color: #191919;
   &:after {
     -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
@@ -201,7 +202,7 @@ const ButtonSpread = styled.button`
   }
 
   @media ${device.tablet} {
-    transform: scale(15.5);
+    transform: scale(15);
   }
 `;
 
