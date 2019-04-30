@@ -11,7 +11,7 @@ But I guess it's a way to showcase some of my projects (and also a way to try ou
 
 - Next.js :heavy_check_mark:
 
-## What I learnt :eyeglasses:
+## What I learned :eyeglasses:
 
 - How to make css animations with styled components 
 - How to use Next.js 
