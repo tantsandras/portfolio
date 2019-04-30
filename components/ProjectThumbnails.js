@@ -20,7 +20,6 @@ const Photo = styled.img`
   transform: scale(1);
   box-shadow: 5px 5px 5px;
   @media ${device.tablet} {
-    transform: scale(1);
     margin: 0 0 2em 0;
   }
 `;

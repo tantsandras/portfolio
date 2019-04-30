@@ -29,6 +29,7 @@ const ProjectBoxes = styled.div`
   @media ${device.tablet} {
     transform: translate(0%, 0px);
     margin: 0;
+    max-width: 70vw;
   }
 `;
  
