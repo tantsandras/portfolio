@@ -1,6 +1,7 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
 import Github from "./github-10-xxl.png";
+import {device} from "./devices"
 
 const glitch = keyframes`
   0% {
@@ -90,6 +91,11 @@ const GlitchFont = styled.a`
         infinite;
     }
   }
+
+  @media ${device.tablet} {
+    font-size: 1.6em;
+    transform: translate(10%, -0%);
+  }
 `;
 
 const GlitchFont2 = styled.a`
@@ -130,6 +136,12 @@ const GlitchFont2 = styled.a`
         infinite;
     }
   }
+  
+  @media ${device.tablet} {
+    font-size: 1.6em;
+    transform: translate(0%, -220%);
+  }
+
 `;
 
 const Paragraph = styled.p`
@@ -137,6 +149,11 @@ const Paragraph = styled.p`
   font-size: 2em;
   font-family: "Rajdhani", sans-serif;
   padding-left: 20%;
+
+  @media ${device.tablet} {
+    font-size: 1.4em;
+    padding-left: 10%;
+  }
 `;
 
 const Greeting = styled.p`
@@ -150,10 +167,20 @@ const Greeting = styled.p`
   top: 8em;
   right: 1em;
   letter-spacing: 2px;
+
+
+  @media ${device.tablet} {
+    font-size: 1.2em;
+    right: 0.5em;
+  }
 `;
 
 const GithubLogo = styled.img`
   transform: translate(2200%, -190%);
+
+  @media ${device.tablet} {
+    transform: translate(290%, -360%);
+  }
 `;
 
 const ButtonSpread = styled.button`
@@ -172,6 +199,10 @@ const ButtonSpread = styled.button`
   &:hover {
     transform: scale(17.5);
   }
+
+  @media ${device.tablet} {
+    transform: scale(15.5);
+  }
 `;
 
 const Hidden = styled.p`
@@ -181,6 +212,11 @@ const Hidden = styled.p`
   color: #191919;
   font-size: 2em;
   font-family: "Rajdhani", sans-serif;
+
+  @media ${device.tablet} {
+    font-size: 1.2em;
+    bottom: 130px;
+  }
 `;
 
 const FooterSection = () => (

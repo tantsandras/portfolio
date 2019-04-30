@@ -1,4 +1,5 @@
 import styled, { keyframes } from "styled-components"
+import {device} from "./devices"
 
 const growLeft = keyframes`
 from {
@@ -32,6 +33,9 @@ flex-direction: row;
   color: #F5F5F5;
   opacity: 0;
   animation: ${fadeInRight} ease 0.6s forwards;
+  @media ${device.tablet} {
+    font-size: 1em;
+  }
 }
 
 & ${Navbar}:nth-child(1):hover {
@@ -47,6 +51,9 @@ flex-direction: row;
   transform-origin: left;
   animation: ${growLeft} cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s forwards;
   animation-delay: 0.8s;
+  @media ${device.tablet} {
+    margin: 1.6em 0.2em 0.6em 0.2em;
+  }
 }
 
 & ${Navbar}:nth-child(3) {
@@ -58,6 +65,9 @@ flex-direction: row;
   opacity: 0;
   animation: ${fadeInRight} ease 1.2s forwards;
   animation-delay: 1.6s;
+  @media ${device.tablet} {
+    font-size: 1em;
+  }
 }
 
 & ${Navbar}:nth-child(3):hover {
@@ -73,6 +83,9 @@ flex-direction: row;
   opacity: 0;
   animation: ${fadeInRight} ease 1.2s forwards;
   animation-delay: 1.6s;
+  @media ${device.tablet} {
+    font-size: 1em;
+  }
 }
 
 & ${Navbar}:nth-child(4):hover {

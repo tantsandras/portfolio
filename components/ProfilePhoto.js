@@ -1,4 +1,5 @@
 import styled, { keyframes } from "styled-components" 
+import {device} from "./devices"
 
 const Round = styled.div` 
 position: relative;
@@ -22,6 +23,12 @@ shape-outside: circle();
   -moz-box-shadow: inset 0px 0px 40px 5px rgba(0,0,0,0.9);
   -webkit-box-shadow: inset 0px 0px 40px 5px rgba(0,0,0,0.9);
 }
+
+    @media ${device.tablet} {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 0 0 0 1em;
+    }
 `;
 
 const ProfilePhoto = styled.img`
@@ -30,6 +37,7 @@ height: 675px;
 width: 1000px;
 max-width: 100%;
 max-height: 100%;
+
 `;
 
 const Photo = () => (

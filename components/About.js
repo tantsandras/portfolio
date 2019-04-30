@@ -1,6 +1,7 @@
 import styled, { keyframes } from "styled-components"
 import StyledBlobs from "./Blobs"
 import Photo from "./ProfilePhoto"
+import {device} from "./devices"
 
 const fade = keyframes`
     from { opacity: 0; } 
@@ -26,6 +27,12 @@ const AboutContainer = styled.article`
     text-shadow: 2px 2px #D81159;
     animation: ${fade} ease 6s forwards;
     padding-top: 2em;
+
+    @media ${device.tablet} {
+        text-align: center;
+        font-size: 1em;
+        margin-top: 7em;
+      }
 }
 
 & ${AboutContainer}:nth-child(3) {
@@ -37,6 +44,12 @@ const AboutContainer = styled.article`
     width: 65%;
     padding-top: 1em;
     padding-bottom: 2em;
+
+    @media ${device.tablet} {
+        font-size: 0.8em;
+        width: 80%;
+        padding-left: 10%;
+      }
 }
 
 & ${AboutContainer}:nth-child(4) {
@@ -44,6 +57,13 @@ const AboutContainer = styled.article`
   animation: ${fade} ease 6s forwards;
   padding-left: 60%;
   padding-top: 2em;
+
+  @media ${device.tablet} {
+    text-align: center;
+    font-size: 1em;
+    margin-top: 4em;
+    padding-left: 0;
+  }
 }
 
 & ${AboutContainer}:nth-child(5) {
@@ -55,6 +75,13 @@ const AboutContainer = styled.article`
   padding-left: 40%;
   padding-top: 1em;
   padding-bottom: 4em;
+
+
+  @media ${device.tablet} {
+    font-size: 0.8em;
+    width: 80%;
+    padding-left: 10%;
+  }
 }
 `;
 

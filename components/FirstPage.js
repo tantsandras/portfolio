@@ -1,6 +1,7 @@
 import styled, { keyframes } from "styled-components";
 import Plants from "../components/img";
 import {glitch} from "../components/Footer"
+import {device} from "./devices"
 
 const fadeInRight = keyframes`
     from {
@@ -55,6 +56,11 @@ const Title = styled.h1`
             animation: ${glitch} 8s cubic-bezier(.25, .46, .45, .94) reverse both infinite
           }
         }
+
+        @media ${device.tablet} {
+          font-size: 1.8em;
+          margin-left: 5%;
+        }
 `;
 
 
@@ -94,6 +100,11 @@ const Title2 = styled.h1`
             animation: ${glitch} 8s cubic-bezier(.25, .46, .45, .94) reverse both infinite
           }
         }
+
+        @media ${device.tablet} {
+          font-size: 1.8em;
+          margin-left: 5%;
+        }
 `;
 
 const Slogan = styled.article`
@@ -104,6 +115,12 @@ const Slogan = styled.article`
   opacity: 0;
   animation: ${fadeInRight} ease 6s forwards;
   z-index: 1;
+
+  @media ${device.tablet} {
+    font-size: 1.2em;
+    margin-left: 5%;
+    width: 80%;
+  }
 `;
 
 const Languages = styled.article`
@@ -114,6 +131,12 @@ const Languages = styled.article`
   color: #2fbf71;
   opacity: 0;
   animation: ${fadeInRight} ease 6s forwards;
+
+  @media ${device.tablet} {
+    font-size: 1.2em;
+    margin-left: 5%;
+    width: 60%;
+  }
 `;
 
 const fade = keyframes`

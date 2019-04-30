@@ -7,6 +7,7 @@ import plastiscene from "./plastic.png";
 import styled, { keyframes } from "styled-components";
 import React from "react";
 import ProjectGif from "./projectGifs.js";
+import {device} from "./devices"
 
 const Photo = styled.img`
   object-fit: cover;
@@ -18,6 +19,10 @@ const Photo = styled.img`
   filter: grayscale(60%);
   transform: scale(1);
   box-shadow: 5px 5px 5px;
+  @media ${device.tablet} {
+    transform: scale(1);
+    margin: 0 0 2em 0;
+  }
 `;
 
 const Frame = styled.div`
@@ -29,6 +34,12 @@ const Frame = styled.div`
   &:hover {
     transform: scale(1.5);
     z-index: 1;
+  }
+  @media ${device.tablet} {
+    height: 125px;
+    width: 250px;
+    margin: 0 0 2em 0;
+    &:hover { transform: scale(1); }
   }
 `;
 

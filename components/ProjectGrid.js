@@ -1,15 +1,21 @@
 import styled, { keyframes } from "styled-components";
 import Projects from "./Projects";
 import { Jo, Space, Sports, Plastic } from "./ProjectThumbnails";
+import {device} from "./devices"
 
 const Grid = styled.div`
-  margin: 6em 0  0 auto;
+  margin: 6em 0  40em auto;
   display: grid;
-  height: 100vw;
+  height: 100%;
   width: 90%;
   grid-template-columns: 30% 30%;
   grid-template-rows: 600px 600px;
   grid-gap: 20%;
+  @media ${device.tablet} {
+    grid-template-columns: 100%;
+    grid-template-rows: 600px 600px 600px 600px;
+    grid-row-gap: 2em;
+  }
 `;
 
 const ProjectBoxes = styled.div`
@@ -20,6 +26,10 @@ const ProjectBoxes = styled.div`
   padding: 30px 15px 20px;
   transform: translate(40%, -80px);
   box-shadow: 5px 5px 5px;
+  @media ${device.tablet} {
+    transform: translate(0%, 0px);
+    margin: 0;
+  }
 `;
  
 const ButtonSpread = styled.button`
@@ -60,6 +70,10 @@ const ProjectTitles = styled.h3`
   overflow: hidden;
   white-space: nowrap;
   animation: ${type} 6s steps(80, end);
+  @media ${device.tablet} {
+    font-size: 1.6em;
+    margin-left: -1.4em;
+  }
 `;
 
 const ProjectDescription = styled.p`
@@ -68,6 +82,9 @@ const ProjectDescription = styled.p`
   color: #f5f5f5;
   text-align: left;
   padding-left: 1em;
+  @media ${device.tablet} {
+    font-size: 1.2em;
+  }
 `;
 
 export default () => (
