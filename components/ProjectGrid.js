@@ -19,6 +19,23 @@ const ProjectBoxes = styled.div`
   background-color: rgba(216, 17, 89, 0.8);
   padding: 30px 15px 20px;
   transform: translate(40%, -80px);
+  box-shadow: 5px 5px 5px;
+`;
+ 
+const ButtonSpread = styled.button`
+  margin-left: 2.4em;
+  width: 50px;
+  height: 50px;
+  background:	#80f3e5;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+  mix-blend-mode: hard-light;
+  &:hover {
+    transform: scale(17.5);
+  }
 `;
 
 const type = keyframes`
@@ -66,35 +83,34 @@ export default () => (
       </ProjectDescription>
       </ProjectBoxes>
     </Projects>
+    
     <Projects>
       <Plastic />
       <ProjectBoxes>
         <ProjectTitles>PlastiScene</ProjectTitles>
-
       <ProjectDescription>
         A project done at Athena Hackathon 2019, with the aim of solving the
         plastic crisis. It's made with React, Gatsby.js and D3. It's supposed to be a marketplace where businesses can shop around for existing projects that can either replace, recycle or dispose of plastic.
       </ProjectDescription>
       </ProjectBoxes>
     </Projects>
+
     <Projects>
       <Jo />
       <ProjectBoxes>
         <ProjectTitles>Rarely Jovial</ProjectTitles>
-
       <ProjectDescription>
-        Rarely Jovial is a blog I made with Handlebars, Express, Node.js and PostgreSQL. It was a personal project that I tinkered with on my spare time, and unfortunately I didn't have time to finish it, but it was good backend practice.
+        Rarely Jovial is a blog I made with Handlebars, Express, Node.js and PostgreSQL. It was a personal project that I tinkered with in my spare time, and unfortunately I didn't finish it, but it was good backend practice.
       </ProjectDescription>
       </ProjectBoxes>
     </Projects>
+    
     <Projects>
       <Sports />
       <ProjectBoxes>
         <ProjectTitles>Casual Sports</ProjectTitles>
-
       <ProjectDescription>
         This is an app that wants to connect commitmentphobes and chillers who want to play sports. On the app, you can either sign your team up to play against other teams, see what sport events are going on in London through displaying events from the Meetup API, see what sport events are going on near you, or add and organise sport events.
-
       </ProjectDescription>
       </ProjectBoxes>
     </Projects>

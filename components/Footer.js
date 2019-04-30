@@ -196,4 +196,4 @@ const FooterSection = () => (
   </Footer>
 );
 
-export { FooterSection, glitch };
+export { FooterSection, glitch};

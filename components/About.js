@@ -64,7 +64,7 @@ const AboutPage = () => (
       <AboutContainer>
       <Photo />
         <h2>Who am I?</h2>
-        <p>I fell in love with programming pretty recently, but passionately. Curious about all things code, I have no problems challenging myself to learn more, and find creative solutions to make thoughtful, fun, and functional projects. I highly enjoy <i>digital communication</i> & <i>design</i>.</p>
+        <p>I fell in love with programming pretty recently, but passionately. Curious about all things code, I have no problems challenging myself to learn more, and find creative solutions to make thoughtful, fun, and functional projects. I'm especially stoked about <i>digital communication</i> & <i>design</i>.</p>
         <h2>What can I do?</h2>
         <p>Plan, build and deliver beautiful and exciting features, both backend and frontend.</p>
       </AboutContainer>
