@@ -4,16 +4,16 @@ import { Jo, Space, Sports, Plastic } from "./ProjectThumbnails";
 import {device} from "./devices"
 
 const Grid = styled.div`
-  margin: 6em 0  40em auto;
+  margin: 6em 0  36em auto;
   display: grid;
   height: 100%;
-  width: 90%;
+  padding-left: 10%;
   grid-template-columns: 30% 30%;
   grid-template-rows: 600px 600px;
   grid-gap: 20%;
   @media ${device.tablet} {
     grid-template-columns: 100%;
-    grid-template-rows: 600px 600px 600px 600px;
+    grid-template-rows: 700px 700px 700px 700px;
     grid-row-gap: 2em;
   }
 `;
@@ -72,7 +72,8 @@ const ProjectTitles = styled.h3`
   animation: ${type} 6s steps(80, end);
   @media ${device.tablet} {
     font-size: 1.6em;
-    margin-left: -1.4em;
+    margin-left: -1.6em;
+    margin-right: -1em;
   }
 `;
 

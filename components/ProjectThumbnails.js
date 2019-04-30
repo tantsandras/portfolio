@@ -38,8 +38,7 @@ const Frame = styled.div`
   @media ${device.tablet} {
     height: 125px;
     width: 250px;
-    margin: 0 0 2em 0;
-    &:hover { transform: scale(1); }
+    margin: 0 0 4em -0.8em;
   }
 `;
 
