@@ -223,7 +223,7 @@ const Hidden = styled.p`
 const FooterSection = () => (
   <Footer id="contact">
     <GlitchFont>Contact</GlitchFont>
-    <GithubLogo src={Github} width="50px" height="50px" alt="Github logo" />
+    <a href="https://github.com/tantsandras"><GithubLogo src={Github} width="50px" height="50px" alt="Link to my github" /></a>
     <GlitchFont2 href="https://github.com/tantsandras">Github</GlitchFont2>
 
     <Paragraph>grahlsan@gmail.com</Paragraph>
