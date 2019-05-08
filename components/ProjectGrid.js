@@ -4,12 +4,12 @@ import { Jo, Space, Sports, Plastic } from "./ProjectThumbnails";
 import {device} from "./devices"
 
 const Grid = styled.div`
-  margin: 6em 0  36em auto;
+  margin: 6em 0  30em auto;
   display: grid;
   height: 100%;
-  padding-left: 10%;
+  padding-left: 6%;
   grid-template-columns: 30% 30%;
-  grid-template-rows: 600px 600px;
+  grid-template-rows: 800px 800px;
   grid-gap: 20%;
   @media ${device.tablet} {
     grid-template-columns: 100%;

@@ -26,7 +26,7 @@ const AboutContainer = styled.article`
 & ${AboutContainer}:nth-child(2) {
     text-shadow: 2px 2px #D81159;
     animation: ${fade} ease 6s forwards;
-    padding-top: 2em;
+    padding-top: 1.2em;
 
     @media ${device.tablet} {
         text-align: center;
@@ -41,8 +41,8 @@ const AboutContainer = styled.article`
     font-size: 1em;
     font-family: 'Rajdhani', sans-serif;
     line-height: 1.5;
-    width: 65%;
-    padding-top: 1em;
+    width: 70%;
+    padding-top: 0.2em;
     padding-bottom: 2em;
 
     @media ${device.tablet} {

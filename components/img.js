@@ -3,7 +3,7 @@ import {device} from "./devices"
 import styled, { keyframes } from "styled-components"
 
 const Plants = styled.div`
-    padding-right: 2em;
+    padding-right: 1.4em;
     width: 607px;
 
     @media ${device.tablet} {
