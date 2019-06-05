@@ -149,7 +149,7 @@ const Paragraph = styled.p`
   color: #f5f5f5;
   font-size: 2em;
   font-family: "Rajdhani", sans-serif;
-  padding-left: 20%;
+  padding-left: 21%;
 
   @media ${device.tablet} {
     font-size: 1.4em;
@@ -208,7 +208,7 @@ const ButtonSpread = styled.button`
 
 const Hidden = styled.p`
   position: absolute;
-  left: 30px;
+  left: 23px;
   bottom: 97px;
   color: #191919;
   font-size: 2em;

@@ -9,7 +9,7 @@ const Index = () => (
   <div
     style={{
       backgroundColor: `#191919`,
-      margin: `0`
+      margin: `-8px`
     }}
   >
     <Head>
