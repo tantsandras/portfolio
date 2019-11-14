@@ -24,7 +24,7 @@ const ProjectBoxes = styled.div`
   position: relative;
   background-color: rgba(216, 17, 89, 0.8);
   padding: 30px 15px 20px;
-  transform: translate(40%, -80px);
+  transform: translate(40%, -40px);
   box-shadow: 5px 5px 5px;
   @media ${device.tablet} {
     transform: translate(0%, 0px);
@@ -60,10 +60,10 @@ const type = keyframes`
     }
 `;
 
-const ProjectTitles = styled.h3`
+const ProjectTitles = styled.h1`
   font-family: 'Rubik Mono One', sans-serif;
   margin-left: -4.6em;
-  margin-top: 2.4em;
+  vertical-align: bottom;
   text-transform: uppercase;
   font-size: 2em;
   color: #f5f5f5;
@@ -72,7 +72,7 @@ const ProjectTitles = styled.h3`
   white-space: nowrap;
   animation: ${type} 6s steps(80, end);
   @media ${device.tablet} {
-    font-size: 1.6em;
+    font-size: 1em;
     margin-left: -1.6em;
     margin-right: -1em;
   }
@@ -82,12 +82,20 @@ const ProjectDescription = styled.p`
   font-family: "Rajdhani", sans-serif;
   font-size: 1.4em;
   color: #f5f5f5;
+  margin-top: 2em;
   text-align: left;
   padding-left: 1em;
   @media ${device.tablet} {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 `;
+
+const Link = styled.a`
+color: #f5f5f5;
+&:hover {
+  color: lightgrey;
+}
+`
 
 export default () => (
   <Grid>
@@ -95,7 +103,12 @@ export default () => (
     <Projects>
       <Space />
       <ProjectBoxes>
-        <ProjectTitles>Space Explorer</ProjectTitles>
+        <ProjectTitles>
+          <Link
+          href="https://great-gatsby-space-explorer.netlify.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Space Explorer</Link></ProjectTitles>
       <ProjectDescription>
         Made with GatsbyJs and Canvas, the "Great Gatsby - Space Explorer" game
         is a personal project that I built because I had never used Canvas before. And because, you know, ...space. 
@@ -106,8 +119,13 @@ export default () => (
     <Projects>
       <Wollstonecraft />
       <ProjectBoxes>
-        <ProjectTitles>Wollstonecraft Walks</ProjectTitles>
+        <ProjectTitles>
+        <Link
+          href="https://wollstonecraftwalks.netlify.com/"
+          target="_blank"
+          rel="noopener noreferrer">Wollstonecraft Walks</Link></ProjectTitles>
       <ProjectDescription>
+
         A progressive web app and virtual walk guide about Mary Wollstonecraft and her life on Newington Green. I made it in gatsby.js, with netlify's content management system, for the organisations Fragments & Monuments and Scary Little Girls.
       </ProjectDescription>
       </ProjectBoxes>
@@ -116,7 +134,12 @@ export default () => (
     <Projects>
       <Jo />
       <ProjectBoxes>
-        <ProjectTitles>Rarely Jovial</ProjectTitles>
+        <ProjectTitles>
+          
+        <Link
+          href="https://jos-blog.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer">Rarely Jovial</Link></ProjectTitles>
       <ProjectDescription>
         Rarely Jovial is a blog I made with Handlebars, Express, Node.js and PostgreSQL. It was a personal project that I tinkered with in my spare time, and unfortunately I didn't finish it, but it was good backend practice.
       </ProjectDescription>
@@ -126,7 +149,12 @@ export default () => (
     <Projects>
       <Sports />
       <ProjectBoxes>
-        <ProjectTitles>Casual Sports</ProjectTitles>
+        <ProjectTitles>
+          
+        <Link
+          href="https://casual-sports.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer">Casual Sports</Link></ProjectTitles>
       <ProjectDescription>
         This is an app that aims to connect commitmentphobes and chillers who want to play sports. On the app, you can either sign your team up to play against other teams, see what sport events are going on in London through displaying events from the Meetup API, see what sport events are going on near you, or add and organise sport events.
       </ProjectDescription>
