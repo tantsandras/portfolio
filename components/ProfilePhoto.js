@@ -42,7 +42,7 @@ max-height: 100%;
 
 const Photo = () => (
     <Round>
-        <ProfilePhoto src="https://cdn1.cdnme.se/1573896/8-3/img_97752_57949d09ddf2b37eda693de5.jpg" alt="Photo of Sandra Grahl" />
+        <ProfilePhoto src="https://cdn1.cdnme.se/1573896/8-3/img_97752_57949d09ddf2b37eda693de5.jpg" alt="Sandra Grahl in front of greenery" />
     </Round>
 )
 

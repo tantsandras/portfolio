@@ -1,330 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
-
-/***/ "./components/About.js":
-/*!*****************************!*\
-  !*** ./components/About.js ***!
-  \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _Blobs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Blobs */ "./components/Blobs.js");
-/* harmony import */ var _ProfilePhoto__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ProfilePhoto */ "./components/ProfilePhoto.js");
-/* harmony import */ var _devices__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./devices */ "./components/devices.js");
-
-var _jsxFileName = "/home/sandra/projects/portfolio/components/About.js";
-
-
-function _templateObject3() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    font-size: 1.6em;\n    font-family: 'Rubik Mono One', sans-serif;\n    color: #F5F5F5;\n    padding-top: 2em;\n    animation: ", " ease 6s forwards;\n    width: 100%;\n\n& ", ":nth-child(2) {\n    text-shadow: 2px 2px #D81159;\n    animation: ", " ease 6s forwards;\n    padding-top: 0.8em;\n\n    @media ", " {\n        text-align: center;\n        font-size: 1em;\n        margin-top: 7em;\n      }\n}\n\n& ", ":nth-child(3) {\n    animation: ", " ease 6s forwards;\n    color: #F5F5F5;\n    font-size: 1em;\n    font-family: 'Rajdhani', sans-serif;\n    line-height: 1.5;\n    width: 70%;\n    padding-top: 0.1em;\n    padding-bottom: 2em;\n\n    @media ", " {\n        font-size: 0.8em;\n        width: 80%;\n        padding-left: 10%;\n      }\n}\n\n& ", ":nth-child(4) {\n    text-shadow: 2px 2px #D81159;\n  animation: ", " ease 6s forwards;\n  padding-left: 60%;\n  padding-top: 2em;\n\n  @media ", " {\n    text-align: center;\n    font-size: 1em;\n    margin-top: 4em;\n    padding-left: 0;\n  }\n}\n\n& ", ":nth-child(5) {\n  animation: ", " ease 6s forwards;\n  color: #F5F5F5;\n  font-size: 1em;\n  font-family: 'Rajdhani', sans-serif;\n  width: 50%;\n  padding-left: 40%;\n  padding-top: 1em;\n  padding-bottom: 4em;\n\n\n  @media ", " {\n    font-size: 0.8em;\n    width: 80%;\n    padding-left: 10%;\n  }\n}\n"]);
-
-  _templateObject3 = function _templateObject3() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject2() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\nbackground-color: #263535;\nmargin-top: 18em;\nwidth: 100%;\npadding-bottom: 6em;\n"]);
-
-  _templateObject2 = function _templateObject2() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    from { opacity: 0; } \n    to { opacity: 1; }\n"]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-
-
-
-
-var fade = Object(styled_components__WEBPACK_IMPORTED_MODULE_2__["keyframes"])(_templateObject());
-var About = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].section(_templateObject2());
-var AboutContainer = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].article(_templateObject3(), fade, AboutContainer, fade, _devices__WEBPACK_IMPORTED_MODULE_5__["device"].tablet, AboutContainer, fade, _devices__WEBPACK_IMPORTED_MODULE_5__["device"].tablet, AboutContainer, fade, _devices__WEBPACK_IMPORTED_MODULE_5__["device"].tablet, AboutContainer, fade, _devices__WEBPACK_IMPORTED_MODULE_5__["device"].tablet);
-
-var AboutPage = function AboutPage() {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(About, {
-    id: "about",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 89
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(AboutContainer, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 91
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_ProfilePhoto__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 92
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 93
-    },
-    __self: this
-  }, "Who am I?"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 94
-    },
-    __self: this
-  }, "I fell in love with programming pretty recently, but passionately. Curious about all things code, I have no problems challenging myself to learn more, and find creative solutions to make thoughtful, fun, and functional projects. I'm especially stoked about ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 94
-    },
-    __self: this
-  }, "digital communication"), " & ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 94
-    },
-    __self: this
-  }, "design"), "."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 95
-    },
-    __self: this
-  }, "What can I do?"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 96
-    },
-    __self: this
-  }, "Plan, build and deliver beautiful and exciting features, both backend and frontend.")));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (AboutPage);
-
-/***/ }),
-
-/***/ "./components/Blobs.js":
-/*!*****************************!*\
-  !*** ./components/Blobs.js ***!
-  \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/styled */ "./components/styled.js");
-var _jsxFileName = "/home/sandra/projects/portfolio/components/Blobs.js";
-
-
-
-var StyledBlobs = function StyledBlobs() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_styled__WEBPACK_IMPORTED_MODULE_1__["Blobs"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  })));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (StyledBlobs);
-
-/***/ }),
-
-/***/ "./components/FirstPage.js":
-/*!*********************************!*\
-  !*** ./components/FirstPage.js ***!
-  \*********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _components_img__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/img */ "./components/img.js");
-/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
-/* harmony import */ var _devices__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./devices */ "./components/devices.js");
-
-var _jsxFileName = "/home/sandra/projects/portfolio/components/FirstPage.js";
-
-
-function _templateObject8() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  & ", ":nth-child(5) {\n    float: right;\n    transform: translateY(-10%);\n    z-index: -1;\n    animation: ", " ease 7s forwards;\n    margin-bottom: 0;\n  }\n"]);
-
-  _templateObject8 = function _templateObject8() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject7() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    from { opacity: 0; } \n    to { opacity: 1; }\n"]);
-
-  _templateObject7 = function _templateObject7() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject6() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  font-size: 2em;\n  font-family: \"Rajdhani\", sans-serif;\n  margin-top: 0.6em;\n  margin-left: 5.4em;\n  color: #2fbf71;\n  opacity: 0;\n  animation: ", " ease 6s forwards;\n\n  @media ", " {\n    font-size: 1.2em;\n    margin-left: 5%;\n    width: 60%;\n  }\n"]);
-
-  _templateObject6 = function _templateObject6() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject5() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  font-size: 2em;\n  font-family: \"Rajdhani\", sans-serif;\n  margin-left: 5.4em;\n  color: #f5f5f5;\n  opacity: 0;\n  animation: ", " ease 6s forwards;\n  z-index: 1;\n\n  @media ", " {\n    font-size: 1.2em;\n    margin-left: 5%;\n    width: 80%;\n  }\n"]);
-
-  _templateObject5 = function _templateObject5() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject4() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n        overflow: hidden;\n        white-space: nowrap;\n        margin-left: 1.8em;\n        margin-top: 0;\n        font-family: 'Rubik Mono One', sans-serif;\n        font-size: 4.2em;\n        color: #F5F5F5;\n        animation: ", " ease 6s forwards;\n        &:before,\n        &:after{\n          display: block;\n          content: 'Web developer';\n          position: absolute;\n          top: 0;\n          left: 0;\n          height: 100%;\n          width: 100%;\n          opacity: .8;\n        }\n        &:after {\n          color: #D81159;\n          z-index: -2;\n        }\n        &:before {\n          color: #2fbf71;\n          z-index: -1;\n        }\n        &:hover {\n          &:before {\n            animation: ", " 8s cubic-bezier(.25, .46, .45, .94) both infinite\n          }\n          &:after {\n            animation: ", " 8s cubic-bezier(.25, .46, .45, .94) reverse both infinite\n          }\n        }\n\n        @media ", " {\n          font-size: 1.8em;\n          margin-left: 5%;\n        }\n"]);
-
-  _templateObject4 = function _templateObject4() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject3() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n        overflow: hidden;\n        white-space: nowrap;\n        margin-left: 1.8em;\n        margin-top: 5em;\n        margin-bottom: 0;\n        font-family: 'Rubik Mono One', sans-serif;\n        font-size: 4.2em;\n        color: #F5F5F5;\n        animation: ", " ease 6s forwards;\n        &:before,\n        &:after{\n          display: block;\n          content: 'Sandra Grahl,';\n          position: absolute;\n          top: 0;\n          left: 0;\n          height: 100%;\n          width: 100%;\n          opacity: .8;\n        }\n        &:after {\n          color: #D81159;\n          z-index: -2;\n        }\n        &:before {\n          color: #2fbf71;\n          z-index: -1;\n        }\n        &:hover {\n          &:before {\n            animation: ", " 8s cubic-bezier(.25, .46, .45, .94) both infinite\n          }\n          &:after {\n            animation: ", " 8s cubic-bezier(.25, .46, .45, .94) reverse both infinite\n          }\n        }\n\n        @media ", " {\n          font-size: 1.8em;\n          margin-left: 5%;\n        }\n"]);
-
-  _templateObject3 = function _templateObject3() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject2() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    from { width: 0; } \n    to { width: 30em; }\n"]);
-
-  _templateObject2 = function _templateObject2() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    from {\n      opacity: 0;\n      transform: translateX(-15px);\n    }\n    to {\n      opacity: 1;\n      transform: translateX(0);\n    }\n  "]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-
-
-
-
-var fadeInRight = Object(styled_components__WEBPACK_IMPORTED_MODULE_2__["keyframes"])(_templateObject());
-var type = Object(styled_components__WEBPACK_IMPORTED_MODULE_2__["keyframes"])(_templateObject2());
-var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templateObject3(), fadeInRight, _components_Footer__WEBPACK_IMPORTED_MODULE_4__["glitch"], _components_Footer__WEBPACK_IMPORTED_MODULE_4__["glitch"], _devices__WEBPACK_IMPORTED_MODULE_5__["device"].tablet);
-var Title2 = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templateObject4(), fadeInRight, _components_Footer__WEBPACK_IMPORTED_MODULE_4__["glitch"], _components_Footer__WEBPACK_IMPORTED_MODULE_4__["glitch"], _devices__WEBPACK_IMPORTED_MODULE_5__["device"].tablet);
-var Slogan = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].article(_templateObject5(), fadeInRight, _devices__WEBPACK_IMPORTED_MODULE_5__["device"].tablet);
-var Languages = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].article(_templateObject6(), fadeInRight, _devices__WEBPACK_IMPORTED_MODULE_5__["device"].tablet);
-var fade = Object(styled_components__WEBPACK_IMPORTED_MODULE_2__["keyframes"])(_templateObject7());
-var FirstPage = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].section(_templateObject8(), FirstPage, fade);
-
-var LandingPage = function LandingPage() {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(FirstPage, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 158
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 159
-    },
-    __self: this
-  }, "Sandra Grahl,"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title2, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 162
-    },
-    __self: this
-  }, "Web Developer"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Slogan, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 163
-    },
-    __self: this
-  }, "Hi, I'm a london-based full-stack programmer. Let's make something"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Languages, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 166
-    },
-    __self: this
-  }, "| HTML | JavaScript | Node.js | CSS | React | PostgreSQL |"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_img__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 169
-    },
-    __self: this
-  }));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (LandingPage);
-
-/***/ }),
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/portfolio.js"],{
 
 /***/ "./components/Footer.js":
 /*!******************************!*\
@@ -660,10 +334,10 @@ var Navbar = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_temp
 
 /***/ }),
 
-/***/ "./components/ProfilePhoto.js":
-/*!************************************!*\
-  !*** ./components/ProfilePhoto.js ***!
-  \************************************/
+/***/ "./components/ProjectGrid.js":
+/*!***********************************!*\
+  !*** ./components/ProjectGrid.js ***!
+  \***********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -673,13 +347,55 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _devices__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./devices */ "./components/devices.js");
+/* harmony import */ var _Projects__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Projects */ "./components/Projects.js");
+/* harmony import */ var _ProjectThumbnails__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ProjectThumbnails */ "./components/ProjectThumbnails.js");
+/* harmony import */ var _devices__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./devices */ "./components/devices.js");
 
-var _jsxFileName = "/home/sandra/projects/portfolio/components/ProfilePhoto.js";
+var _jsxFileName = "/home/sandra/projects/portfolio/components/ProjectGrid.js";
 
+
+function _templateObject6() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  font-family: \"Rajdhani\", sans-serif;\n  font-size: 1.4em;\n  color: #f5f5f5;\n  text-align: left;\n  padding-left: 1em;\n  @media ", " {\n    font-size: 1.2em;\n  }\n"]);
+
+  _templateObject6 = function _templateObject6() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject5() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  font-family: 'Rubik Mono One', sans-serif;\n  margin-left: -4.6em;\n  margin-top: 2.4em;\n  text-transform: uppercase;\n  font-size: 2em;\n  color: #f5f5f5;\n  text-shadow: 2px 2px #2fbf71;\n  overflow: hidden;\n  white-space: nowrap;\n  animation: ", " 6s steps(80, end);\n  @media ", " {\n    font-size: 1.6em;\n    margin-left: -1.6em;\n    margin-right: -1em;\n  }\n"]);
+
+  _templateObject5 = function _templateObject5() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject4() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    from { \n        width: 0; \n        opacity: 1;\n    } \n    to { \n        width: 30em; \n        opacity: 1;\n    }\n"]);
+
+  _templateObject4 = function _templateObject4() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject3() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  margin-left: 2.4em;\n  width: 50px;\n  height: 50px;\n  background:\t#80f3e5;\n  border: none;\n  border-radius: 30px;\n  cursor: pointer;\n  outline: none;\n  transition: all 0.3s ease;\n  mix-blend-mode: hard-light;\n  &:hover {\n    transform: scale(17.5);\n  }\n"]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
 
 function _templateObject2() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\nobject-fit: cover;\nheight: 675px;\nwidth: 1000px;\nmax-width: 100%;\nmax-height: 100%;\n\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  margin: 0 auto;\n  width: 80%;\n  position: relative;\n  background-color: rgba(216, 17, 89, 0.8);\n  padding: 30px 15px 20px;\n  transform: translate(40%, -80px);\n  box-shadow: 5px 5px 5px;\n  @media ", " {\n    transform: translate(0%, 0px);\n    margin: 0;\n    max-width: 70vw;\n  }\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -689,7 +405,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])([" \nposition: relative;\nheight: 340px;\nwidth: 340px;\nborder-radius: 50%;\nfloat: left;\nclip-path: circle(50%);\nmargin: 0 6em 0 4em;\n-webkit-shape-outside: circle();\nshape-outside: circle();\n\n&:before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  box-shadow: inset 0px 0px 40px 5px rgba(0,0,0,0.9);\n  -moz-box-shadow: inset 0px 0px 40px 5px rgba(0,0,0,0.9);\n  -webkit-box-shadow: inset 0px 0px 40px 5px rgba(0,0,0,0.9);\n}\n\n    @media ", " {\n    max-width: 200px;\n    max-height: 200px;\n    margin: 0 0 0 1em;\n    }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  margin: 6em 0  30em auto;\n  display: grid;\n  height: 100%;\n  padding-left: 6%;\n  grid-template-columns: 30% 30%;\n  grid-template-rows: 800px 800px;\n  grid-gap: 20%;\n  @media ", " {\n    grid-template-columns: 100%;\n    grid-template-rows: 700px 700px 700px 700px;\n    grid-row-gap: 2em;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -700,28 +416,421 @@ function _templateObject() {
 
 
 
-var Round = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(_templateObject(), _devices__WEBPACK_IMPORTED_MODULE_3__["device"].tablet);
-var ProfilePhoto = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].img(_templateObject2());
 
-var Photo = function Photo() {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Round, {
+
+var Grid = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(_templateObject(), _devices__WEBPACK_IMPORTED_MODULE_5__["device"].tablet);
+var ProjectBoxes = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(_templateObject2(), _devices__WEBPACK_IMPORTED_MODULE_5__["device"].tablet);
+var ButtonSpread = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].button(_templateObject3());
+var type = Object(styled_components__WEBPACK_IMPORTED_MODULE_2__["keyframes"])(_templateObject4());
+var ProjectTitles = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h3(_templateObject5(), type, _devices__WEBPACK_IMPORTED_MODULE_5__["device"].tablet);
+var ProjectDescription = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].p(_templateObject6(), _devices__WEBPACK_IMPORTED_MODULE_5__["device"].tablet);
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Grid, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 93
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(ProfilePhoto, {
-    src: "https://cdn1.cdnme.se/1573896/8-3/img_97752_57949d09ddf2b37eda693de5.jpg",
-    alt: "Photo of Sandra Grahl",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Projects__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 95
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_ProjectThumbnails__WEBPACK_IMPORTED_MODULE_4__["Space"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(ProjectBoxes, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 97
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(ProjectTitles, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98
+    },
+    __self: this
+  }, "Space Explorer"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(ProjectDescription, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99
+    },
+    __self: this
+  }, "Made with GatsbyJs and Canvas, the \"Great Gatsby - Space Explorer\" game is a personal project that I built because I had never used Canvas before. And because, you know, ...space."))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Projects__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 106
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_ProjectThumbnails__WEBPACK_IMPORTED_MODULE_4__["Wollstonecraft"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 107
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(ProjectBoxes, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 108
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(ProjectTitles, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 109
+    },
+    __self: this
+  }, "Wollstonecraft Walks"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(ProjectDescription, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 110
+    },
+    __self: this
+  }, "A progressive web app and virtual walk guide about Mary Wollstonecraft and her life on Newington Green. I made it in gatsby.js, with netlify's content management system, for the organisations Fragments & Monuments and Scary Little Girls."))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Projects__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 116
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_ProjectThumbnails__WEBPACK_IMPORTED_MODULE_4__["Jo"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 117
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(ProjectBoxes, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 118
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(ProjectTitles, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 119
+    },
+    __self: this
+  }, "Rarely Jovial"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(ProjectDescription, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 120
+    },
+    __self: this
+  }, "Rarely Jovial is a blog I made with Handlebars, Express, Node.js and PostgreSQL. It was a personal project that I tinkered with in my spare time, and unfortunately I didn't finish it, but it was good backend practice."))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Projects__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 126
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_ProjectThumbnails__WEBPACK_IMPORTED_MODULE_4__["Sports"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 127
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(ProjectBoxes, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 128
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(ProjectTitles, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 129
+    },
+    __self: this
+  }, "Casual Sports"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(ProjectDescription, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 130
+    },
+    __self: this
+  }, "This is an app that aims to connect commitmentphobes and chillers who want to play sports. On the app, you can either sign your team up to play against other teams, see what sport events are going on in London through displaying events from the Meetup API, see what sport events are going on near you, or add and organise sport events."))));
+});
+
+/***/ }),
+
+/***/ "./components/ProjectThumbnails.js":
+/*!*****************************************!*\
+  !*** ./components/ProjectThumbnails.js ***!
+  \*****************************************/
+/*! exports provided: Jo, Space, Pest, Sports, Wollstonecraft */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Jo", function() { return Jo; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Space", function() { return Space; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Pest", function() { return Pest; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Sports", function() { return Sports; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Wollstonecraft", function() { return Wollstonecraft; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
+/* harmony import */ var _jos_blog_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./jos-blog.png */ "./components/jos-blog.png");
+/* harmony import */ var _jos_blog_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_jos_blog_png__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _space_game_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./space-game.png */ "./components/space-game.png");
+/* harmony import */ var _space_game_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_space_game_png__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _casual_sports_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./casual-sports.png */ "./components/casual-sports.png");
+/* harmony import */ var _casual_sports_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_casual_sports_png__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _ww_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ww.png */ "./components/ww.png");
+/* harmony import */ var _ww_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_ww_png__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _projectGifs_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./projectGifs.js */ "./components/projectGifs.js");
+/* harmony import */ var _devices__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./devices */ "./components/devices.js");
+
+
+var _jsxFileName = "/home/sandra/projects/portfolio/components/ProjectThumbnails.js";
+
+function _templateObject2() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__["default"])(["\n  position: relative;\n  margin: 0 auto;\n  height: 250px;\n  width: 500px;\n  transition: all 1s ease;\n  &:hover {\n    transform: scale(1.5);\n    z-index: 1;\n  }\n  @media ", " {\n    height: 125px;\n    width: 250px;\n    margin: 0 0 4em -0.8em;\n  }\n"]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__["default"])(["\n  object-fit: cover;\n  width: 1275px;\n  height: 663px;\n  max-width: 100%;\n  max-height: 100%;\n  -webkit-filter: grayscale(100%);\n  filter: grayscale(60%);\n  transform: scale(1);\n  box-shadow: 5px 5px 5px;\n  @media ", " {\n    margin: 0 0 2em 0;\n  }\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
+
+
+
+
+
+
+
+var Photo = styled_components__WEBPACK_IMPORTED_MODULE_6__["default"].img(_templateObject(), _devices__WEBPACK_IMPORTED_MODULE_9__["device"].tablet);
+var Frame = styled_components__WEBPACK_IMPORTED_MODULE_6__["default"].div(_templateObject2(), _devices__WEBPACK_IMPORTED_MODULE_9__["device"].tablet);
+
+var Jo = function Jo() {
+  var _React$useState = react__WEBPACK_IMPORTED_MODULE_7___default.a.useState(false),
+      _React$useState2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$useState, 2),
+      hover = _React$useState2[0],
+      setHover = _React$useState2[1];
+
+  return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Frame, {
+    onMouseOver: function onMouseOver() {
+      return setHover(true);
+    },
+    onMouseOut: function onMouseOut() {
+      return setHover(false);
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, hover ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_projectGifs_js__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    src: "/static/Peek 2019-04-17 13-37 (1).m4v",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }) : react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Photo, {
+    src: _jos_blog_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
     },
     __self: this
   }));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Photo);
+var Space = function Space() {
+  var _React$useState3 = react__WEBPACK_IMPORTED_MODULE_7___default.a.useState(false),
+      _React$useState4 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$useState3, 2),
+      hover = _React$useState4[0],
+      setHover = _React$useState4[1];
+
+  return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Frame, {
+    onMouseOver: function onMouseOver() {
+      return setHover(true);
+    },
+    onMouseOut: function onMouseOut() {
+      return setHover(false);
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  }, hover ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_projectGifs_js__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    src: "/static/Peek 2019-04-17 13-39 (1).m4v",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }) : react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Photo, {
+    src: _space_game_png__WEBPACK_IMPORTED_MODULE_3___default.a,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }));
+};
+
+var Pest = function Pest() {
+  var _React$useState5 = react__WEBPACK_IMPORTED_MODULE_7___default.a.useState(false),
+      _React$useState6 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$useState5, 2),
+      hover = _React$useState6[0],
+      setHover = _React$useState6[1];
+
+  return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Frame, {
+    onMouseOver: function onMouseOver() {
+      return setHover(true);
+    },
+    onMouseOut: function onMouseOut() {
+      return setHover(false);
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73
+    },
+    __self: this
+  }, hover ? hoverPest : react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Photo, {
+    src: pestAlert,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77
+    },
+    __self: this
+  }));
+};
+
+var Sports = function Sports() {
+  var _React$useState7 = react__WEBPACK_IMPORTED_MODULE_7___default.a.useState(false),
+      _React$useState8 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$useState7, 2),
+      hover = _React$useState8[0],
+      setHover = _React$useState8[1];
+
+  return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Frame, {
+    onMouseOver: function onMouseOver() {
+      return setHover(true);
+    },
+    onMouseOut: function onMouseOut() {
+      return setHover(false);
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86
+    },
+    __self: this
+  }, hover ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_projectGifs_js__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    src: "/static/Peek 2019-04-17 13-48.m4v",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90
+    },
+    __self: this
+  }) : react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Photo, {
+    src: _casual_sports_png__WEBPACK_IMPORTED_MODULE_4___default.a,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90
+    },
+    __self: this
+  }));
+};
+
+var Wollstonecraft = function Wollstonecraft() {
+  var _React$useState9 = react__WEBPACK_IMPORTED_MODULE_7___default.a.useState(false),
+      _React$useState10 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$useState9, 2),
+      hover = _React$useState10[0],
+      setHover = _React$useState10[1];
+
+  return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Frame, {
+    onMouseOver: function onMouseOver() {
+      return setHover(true);
+    },
+    onMouseOut: function onMouseOut() {
+      return setHover(false);
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99
+    },
+    __self: this
+  }, hover ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_projectGifs_js__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    src: "/static/wwalks.m4v",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 103
+    },
+    __self: this
+  }) : react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Photo, {
+    src: _ww_png__WEBPACK_IMPORTED_MODULE_5___default.a,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 103
+    },
+    __self: this
+  }));
+};
+
+
+
+/***/ }),
+
+/***/ "./components/Projects.js":
+/*!********************************!*\
+  !*** ./components/Projects.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _devices__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./devices */ "./components/devices.js");
+
+
+function _templateObject() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\nheight: auto;\nwidth: 100%;\n\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
+
+var Showcase = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].article(_templateObject());
+/* harmony default export */ __webpack_exports__["default"] = (Showcase);
+
+/***/ }),
+
+/***/ "./components/casual-sports.png":
+/*!**************************************!*\
+  !*** ./components/casual-sports.png ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/casual-sports-83f101d3babc74723651dea6fd765809.png";
 
 /***/ }),
 
@@ -768,28 +877,36 @@ module.exports = "/_next/static/images/github-10-xxl-26343e0a5e29e4164dfdd1674e7
 
 /***/ }),
 
-/***/ "./components/img.js":
-/*!***************************!*\
-  !*** ./components/img.js ***!
-  \***************************/
+/***/ "./components/jos-blog.png":
+/*!*********************************!*\
+  !*** ./components/jos-blog.png ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/jos-blog-2120f8aa1928cc00be4581d72d702d99.png";
+
+/***/ }),
+
+/***/ "./components/projectGifs.js":
+/*!***********************************!*\
+  !*** ./components/projectGifs.js ***!
+  \***********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _leaf_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./leaf.png */ "./components/leaf.png");
-/* harmony import */ var _leaf_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_leaf_png__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _devices__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./devices */ "./components/devices.js");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 
-var _jsxFileName = "/home/sandra/projects/portfolio/components/img.js";
-
+var _jsxFileName = "/home/sandra/projects/portfolio/components/projectGifs.js";
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    padding-right: 1.4em;\n    width: 607px;\n\n    @media ", " {\n    margin: 0 auto;\n    width: 250px;\n    padding-top: 4em;\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    width: 500px;\n    height: 250px;\n\n@media ", " {\n  height: 166px;\n  width: 332px;\n  margin: 0 0 2em -0.8em;\n  z-index: 1;\n}\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -801,38 +918,40 @@ function _templateObject() {
 
 
 
-var Plants = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].div(_templateObject(), _devices__WEBPACK_IMPORTED_MODULE_3__["device"].tablet);
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Plants, {
+var Video = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].video(_templateObject(), _devices__WEBPACK_IMPORTED_MODULE_3__["device"].tablet);
+
+var ProjectGif = function ProjectGif(_ref) {
+  var src = _ref.src;
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Video, {
+    autoPlay: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 18
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: _leaf_png__WEBPACK_IMPORTED_MODULE_2___default.a,
-    style: {
-      maxWidth: "100%"
-    },
-    alt: "Monstera leaves",
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("source", {
+    src: src,
+    type: "video/mp4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 19
     },
     __self: this
   }));
-});
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (ProjectGif);
 
 /***/ }),
 
-/***/ "./components/leaf.png":
-/*!*****************************!*\
-  !*** ./components/leaf.png ***!
-  \*****************************/
+/***/ "./components/space-game.png":
+/*!***********************************!*\
+  !*** ./components/space-game.png ***!
+  \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/leaf-1c451a917c88b8cff9e08845cf3d43cb.png";
+module.exports = "/_next/static/images/space-game-92c70946f102f06db8b6e1e9c38974c7.png";
 
 /***/ }),
 
@@ -886,6 +1005,17 @@ var LinkStyle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a(_tem
 var fadeAndGrow = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["keyframes"])(_templateObject2());
 var Blobs = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject3(), Blobs, fadeAndGrow, Blobs, fadeAndGrow);
 
+
+/***/ }),
+
+/***/ "./components/ww.png":
+/*!***************************!*\
+  !*** ./components/ww.png ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/ww-59f03cbf167f6e222149db1775222cf4.png";
 
 /***/ }),
 
@@ -7205,21 +7335,21 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fsandra%2Fprojects%2Fportfolio%2Fpages%2Findex.js!./":
-/*!***********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fsandra%2Fprojects%2Fportfolio%2Fpages%2Findex.js ***!
-  \***********************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fportfolio&absolutePagePath=%2Fhome%2Fsandra%2Fprojects%2Fportfolio%2Fpages%2Fportfolio.js!./":
+/*!************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fportfolio&absolutePagePath=%2Fhome%2Fsandra%2Fprojects%2Fportfolio%2Fpages%2Fportfolio.js ***!
+  \************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var page = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/portfolio", function() {
+      var page = __webpack_require__(/*! ./pages/portfolio.js */ "./pages/portfolio.js")
       if(true) {
-        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
-          next.router.update("/", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/portfolio.js */ "./pages/portfolio.js", function() {
+          if(!next.router.components["/portfolio"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/portfolio.js */ "./pages/portfolio.js")
+          next.router.update("/portfolio", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -14245,117 +14375,109 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/portfolio.js":
+/*!****************************!*\
+  !*** ./pages/portfolio.js ***!
+  \****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/Header */ "./components/Header.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_About__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/About */ "./components/About.js");
-/* harmony import */ var _components_FirstPage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/FirstPage */ "./components/FirstPage.js");
-/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
-var _jsxFileName = "/home/sandra/projects/portfolio/pages/index.js";
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Header */ "./components/Header.js");
+/* harmony import */ var _components_ProjectGrid__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/ProjectGrid */ "./components/ProjectGrid.js");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
+var _jsxFileName = "/home/sandra/projects/portfolio/pages/portfolio.js";
 
 
 
 
 
 
-
-var Index = function Index() {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+var PortfolioPage = function PortfolioPage() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: {
       backgroundColor: "#191919",
       margin: "-8px"
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 8
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    href: "https://fonts.googleapis.com/css?family=Rubik+Mono+One|Rajdhani|Raleway:900",
+    rel: "stylesheet",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
-    href: "https://fonts.googleapis.com/css?family=Rubik+Mono+One|Rajdhani|Raleway:900",
-    rel: "stylesheet",
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 19
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", {
+  }, "Sandra Grahl, portfolio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "Description",
+    content: "Web developer portfolio",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
     },
     __self: this
-  }, "Sandra Grahl, web developer in London"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
-    name: "Description",
-    content: "Sandra Grahl, fullstack web developer based in London",
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "theme-color",
+    content: "#2fbf71",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
-    name: "theme-color",
-    content: "#2fbf71",
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ProjectGrid__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_4__["FooterSection"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_0__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_FirstPage__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_About__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_5__["FooterSection"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
   }));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Index);
+/* harmony default export */ __webpack_exports__["default"] = (PortfolioPage);
 
 /***/ }),
 
 /***/ 0:
-/*!***************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fsandra%2Fprojects%2Fportfolio%2Fpages%2Findex.js ***!
-  \***************************************************************************************************************************/
+/*!****************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fportfolio&absolutePagePath=%2Fhome%2Fsandra%2Fprojects%2Fportfolio%2Fpages%2Fportfolio.js ***!
+  \****************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fsandra%2Fprojects%2Fportfolio%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fsandra%2Fprojects%2Fportfolio%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fportfolio&absolutePagePath=%2Fhome%2Fsandra%2Fprojects%2Fportfolio%2Fpages%2Fportfolio.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fportfolio&absolutePagePath=%2Fhome%2Fsandra%2Fprojects%2Fportfolio%2Fpages%2Fportfolio.js!./");
 
 
 /***/ }),
@@ -14372,4 +14494,4 @@ module.exports = dll_6dc2816e14fab51b8269;
 /***/ })
 
 },[[0,"static/runtime/webpack.js"]]]));;
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=portfolio.js.map

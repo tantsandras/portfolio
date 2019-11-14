@@ -1,8 +1,7 @@
 import josBlog from "./jos-blog.png";
 import spaceGame from "./space-game.png";
-import pestAlert from "./pest-alert.png";
 import casualSports from "./casual-sports.png";
-import plastiscene from "./plastic.png";
+import wollstonecraft from "./ww.png";
 
 import styled, { keyframes } from "styled-components";
 import React from "react";
@@ -93,7 +92,7 @@ const Sports = () => {
   );
 };
 
-const Plastic = () => {
+const Wollstonecraft = () => {
   const [hover, setHover] = React.useState(false);
 
   return (
@@ -101,9 +100,9 @@ const Plastic = () => {
       onMouseOver={() => setHover(true)}
       onMouseOut={() => setHover(false)}
     >
-      {hover ? <ProjectGif src="/static/plastiscene.mp4" /> : <Photo src={plastiscene} />}
+      {hover ? <ProjectGif src="/static/wwalks.m4v" /> : <Photo src={wollstonecraft} />}
     </Frame>
   );
 };
 
-export { Jo, Space, Pest, Sports, Plastic };
+export { Jo, Space, Pest, Sports, Wollstonecraft };

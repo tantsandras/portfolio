@@ -1,6 +1,6 @@
 import styled, { keyframes } from "styled-components";
 import Projects from "./Projects";
-import { Jo, Space, Sports, Plastic } from "./ProjectThumbnails";
+import { Jo, Space, Sports, Wollstonecraft } from "./ProjectThumbnails";
 import {device} from "./devices"
 
 const Grid = styled.div`
@@ -65,7 +65,7 @@ const ProjectTitles = styled.h3`
   margin-left: -4.6em;
   margin-top: 2.4em;
   text-transform: uppercase;
-  font-size: 3em;
+  font-size: 2em;
   color: #f5f5f5;
   text-shadow: 2px 2px #2fbf71;
   overflow: hidden;
@@ -80,7 +80,7 @@ const ProjectTitles = styled.h3`
 
 const ProjectDescription = styled.p`
   font-family: "Rajdhani", sans-serif;
-  font-size: 1.6em;
+  font-size: 1.4em;
   color: #f5f5f5;
   text-align: left;
   padding-left: 1em;
@@ -104,12 +104,11 @@ export default () => (
     </Projects>
     
     <Projects>
-      <Plastic />
+      <Wollstonecraft />
       <ProjectBoxes>
-        <ProjectTitles>PlastiScene</ProjectTitles>
+        <ProjectTitles>Wollstonecraft Walks</ProjectTitles>
       <ProjectDescription>
-        A project done at Athena Hackathon 2019, with the aim of solving the
-        plastic crisis. It's made with React, Gatsby.js and D3. It's supposed to be a marketplace where businesses can shop around for existing projects that can either replace, recycle or dispose of plastic.
+        A progressive web app and virtual walk guide about Mary Wollstonecraft and her life on Newington Green. I made it in gatsby.js, with netlify's content management system, for the organisations Fragments & Monuments and Scary Little Girls.
       </ProjectDescription>
       </ProjectBoxes>
     </Projects>
@@ -129,7 +128,7 @@ export default () => (
       <ProjectBoxes>
         <ProjectTitles>Casual Sports</ProjectTitles>
       <ProjectDescription>
-        This is an app that wants to connect commitmentphobes and chillers who want to play sports. On the app, you can either sign your team up to play against other teams, see what sport events are going on in London through displaying events from the Meetup API, see what sport events are going on near you, or add and organise sport events.
+        This is an app that aims to connect commitmentphobes and chillers who want to play sports. On the app, you can either sign your team up to play against other teams, see what sport events are going on in London through displaying events from the Meetup API, see what sport events are going on near you, or add and organise sport events.
       </ProjectDescription>
       </ProjectBoxes>
     </Projects>
