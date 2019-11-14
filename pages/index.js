@@ -3,7 +3,7 @@ import React from "react";
 import Head from "next/head";
 import AboutPage from "../components/About";
 import LandingPage from "../components/FirstPage";
-import { FooterSection } from "../components/Footer"
+import { FooterSection } from "../components/Footer";
 
 const Index = () => (
   <div
@@ -17,6 +17,12 @@ const Index = () => (
         href="https://fonts.googleapis.com/css?family=Rubik+Mono+One|Rajdhani|Raleway:900"
         rel="stylesheet"
       />
+      <title>Sandra Grahl, web developer in London</title>
+      <meta
+        name="Description"
+        content="Sandra Grahl, fullstack web developer based in London"
+      ></meta>
+      <meta name="theme-color" content="#2fbf71" />
     </Head>
     <Header />
     <LandingPage />

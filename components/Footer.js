@@ -227,7 +227,7 @@ const FooterSection = () => (
     <GlitchFont2 href="https://github.com/tantsandras">Github</GlitchFont2>
 
     <Paragraph>grahlsan@gmail.com</Paragraph>
-    <ButtonSpread />
+    <ButtonSpread aria-label="Hovering button reveals hidden message: Feel free to say hi" />
     <Hidden>Feel free to say hi ---></Hidden>
     <Greeting>--- Drop me a line ---</Greeting>
   </Footer>

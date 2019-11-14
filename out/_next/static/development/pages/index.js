@@ -15,12 +15,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _Blobs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Blobs */ "./components/Blobs.js");
 /* harmony import */ var _ProfilePhoto__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ProfilePhoto */ "./components/ProfilePhoto.js");
+/* harmony import */ var _devices__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./devices */ "./components/devices.js");
 
-var _jsxFileName = "/home/sandra/projects/next-js/components/About.js";
+var _jsxFileName = "/home/sandra/projects/portfolio/components/About.js";
 
 
 function _templateObject3() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    font-size: 1.6em;\n    font-family: 'Rubik Mono One', sans-serif;\n    color: #F5F5F5;\n    padding-top: 2em;\n    animation: ", " ease 6s forwards;\n    width: 100%;\n\n& ", ":nth-child(2) {\n    text-shadow: 2px 2px #D81159;\n    animation: ", " ease 6s forwards;\n    padding-top: 2em;\n}\n\n& ", ":nth-child(3) {\n    animation: ", " ease 6s forwards;\n    color: #F5F5F5;\n    font-size: 1em;\n    font-family: 'Rajdhani', sans-serif;\n    line-height: 1.5;\n    width: 65%;\n    padding-top: 1em;\n    padding-bottom: 2em;\n}\n\n& ", ":nth-child(4) {\n    text-shadow: 2px 2px #D81159;\n  animation: ", " ease 6s forwards;\n  padding-left: 60%;\n  padding-top: 2em;\n}\n\n& ", ":nth-child(5) {\n  animation: ", " ease 6s forwards;\n  color: #F5F5F5;\n  font-size: 1em;\n  font-family: 'Rajdhani', sans-serif;\n  width: 50%;\n  padding-left: 40%;\n  padding-top: 1em;\n  padding-bottom: 4em;\n}\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    font-size: 1.6em;\n    font-family: 'Rubik Mono One', sans-serif;\n    color: #F5F5F5;\n    padding-top: 2em;\n    animation: ", " ease 6s forwards;\n    width: 100%;\n\n& ", ":nth-child(2) {\n    text-shadow: 2px 2px #D81159;\n    animation: ", " ease 6s forwards;\n    padding-top: 0.8em;\n\n    @media ", " {\n        text-align: center;\n        font-size: 1em;\n        margin-top: 7em;\n      }\n}\n\n& ", ":nth-child(3) {\n    animation: ", " ease 6s forwards;\n    color: #F5F5F5;\n    font-size: 1em;\n    font-family: 'Rajdhani', sans-serif;\n    line-height: 1.5;\n    width: 70%;\n    padding-top: 0.1em;\n    padding-bottom: 2em;\n\n    @media ", " {\n        font-size: 0.8em;\n        width: 80%;\n        padding-left: 10%;\n      }\n}\n\n& ", ":nth-child(4) {\n    text-shadow: 2px 2px #D81159;\n  animation: ", " ease 6s forwards;\n  padding-left: 60%;\n  padding-top: 2em;\n\n  @media ", " {\n    text-align: center;\n    font-size: 1em;\n    margin-top: 4em;\n    padding-left: 0;\n  }\n}\n\n& ", ":nth-child(5) {\n  animation: ", " ease 6s forwards;\n  color: #F5F5F5;\n  font-size: 1em;\n  font-family: 'Rajdhani', sans-serif;\n  width: 50%;\n  padding-left: 40%;\n  padding-top: 1em;\n  padding-bottom: 4em;\n\n\n  @media ", " {\n    font-size: 0.8em;\n    width: 80%;\n    padding-left: 10%;\n  }\n}\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -52,64 +53,65 @@ function _templateObject() {
 
 
 
+
 var fade = Object(styled_components__WEBPACK_IMPORTED_MODULE_2__["keyframes"])(_templateObject());
 var About = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].section(_templateObject2());
-var AboutContainer = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].article(_templateObject3(), fade, AboutContainer, fade, AboutContainer, fade, AboutContainer, fade, AboutContainer, fade);
+var AboutContainer = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].article(_templateObject3(), fade, AboutContainer, fade, _devices__WEBPACK_IMPORTED_MODULE_5__["device"].tablet, AboutContainer, fade, _devices__WEBPACK_IMPORTED_MODULE_5__["device"].tablet, AboutContainer, fade, _devices__WEBPACK_IMPORTED_MODULE_5__["device"].tablet, AboutContainer, fade, _devices__WEBPACK_IMPORTED_MODULE_5__["device"].tablet);
 
 var AboutPage = function AboutPage() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(About, {
     id: "about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 89
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(AboutContainer, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 91
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_ProfilePhoto__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 92
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 93
     },
     __self: this
   }, "Who am I?"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 94
     },
     __self: this
   }, "I fell in love with programming pretty recently, but passionately. Curious about all things code, I have no problems challenging myself to learn more, and find creative solutions to make thoughtful, fun, and functional projects. I'm especially stoked about ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 94
     },
     __self: this
   }, "digital communication"), " & ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 94
     },
     __self: this
   }, "design"), "."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 95
     },
     __self: this
   }, "What can I do?"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 96
     },
     __self: this
   }, "Plan, build and deliver beautiful and exciting features, both backend and frontend.")));
@@ -131,7 +133,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/styled */ "./components/styled.js");
-var _jsxFileName = "/home/sandra/projects/next-js/components/Blobs.js";
+var _jsxFileName = "/home/sandra/projects/portfolio/components/Blobs.js";
 
 
 
@@ -182,8 +184,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _components_img__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/img */ "./components/img.js");
 /* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
+/* harmony import */ var _devices__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./devices */ "./components/devices.js");
 
-var _jsxFileName = "/home/sandra/projects/next-js/components/FirstPage.js";
+var _jsxFileName = "/home/sandra/projects/portfolio/components/FirstPage.js";
 
 
 function _templateObject8() {
@@ -207,7 +210,7 @@ function _templateObject7() {
 }
 
 function _templateObject6() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  font-size: 2em;\n  font-family: \"Rajdhani\", sans-serif;\n  margin-top: 0.6em;\n  margin-left: 5.4em;\n  color: #2fbf71;\n  opacity: 0;\n  animation: ", " ease 6s forwards;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  font-size: 2em;\n  font-family: \"Rajdhani\", sans-serif;\n  margin-top: 0.6em;\n  margin-left: 5.4em;\n  color: #2fbf71;\n  opacity: 0;\n  animation: ", " ease 6s forwards;\n\n  @media ", " {\n    font-size: 1.2em;\n    margin-left: 5%;\n    width: 60%;\n  }\n"]);
 
   _templateObject6 = function _templateObject6() {
     return data;
@@ -217,7 +220,7 @@ function _templateObject6() {
 }
 
 function _templateObject5() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  font-size: 2em;\n  font-family: \"Rajdhani\", sans-serif;\n  margin-left: 5.4em;\n  color: #f5f5f5;\n  opacity: 0;\n  animation: ", " ease 6s forwards;\n  z-index: 1;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  font-size: 2em;\n  font-family: \"Rajdhani\", sans-serif;\n  margin-left: 5.4em;\n  color: #f5f5f5;\n  opacity: 0;\n  animation: ", " ease 6s forwards;\n  z-index: 1;\n\n  @media ", " {\n    font-size: 1.2em;\n    margin-left: 5%;\n    width: 80%;\n  }\n"]);
 
   _templateObject5 = function _templateObject5() {
     return data;
@@ -227,7 +230,7 @@ function _templateObject5() {
 }
 
 function _templateObject4() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n        overflow: hidden;\n        white-space: nowrap;\n        margin-left: 1.8em;\n        margin-top: 0;\n        font-family: 'Rubik Mono One', sans-serif;\n        font-size: 4.2em;\n        color: #F5F5F5;\n        animation: ", " ease 6s forwards;\n        &:before,\n        &:after{\n          display: block;\n          content: 'Web developer';\n          position: absolute;\n          top: 0;\n          left: 0;\n          height: 100%;\n          width: 100%;\n          opacity: .8;\n        }\n        &:after {\n          color: #D81159;\n          z-index: -2;\n        }\n        &:before {\n          color: #2fbf71;\n          z-index: -1;\n        }\n        &:hover {\n          &:before {\n            animation: ", " 8s cubic-bezier(.25, .46, .45, .94) both infinite\n          }\n          &:after {\n            animation: ", " 8s cubic-bezier(.25, .46, .45, .94) reverse both infinite\n          }\n        }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n        overflow: hidden;\n        white-space: nowrap;\n        margin-left: 1.8em;\n        margin-top: 0;\n        font-family: 'Rubik Mono One', sans-serif;\n        font-size: 4.2em;\n        color: #F5F5F5;\n        animation: ", " ease 6s forwards;\n        &:before,\n        &:after{\n          display: block;\n          content: 'Web developer';\n          position: absolute;\n          top: 0;\n          left: 0;\n          height: 100%;\n          width: 100%;\n          opacity: .8;\n        }\n        &:after {\n          color: #D81159;\n          z-index: -2;\n        }\n        &:before {\n          color: #2fbf71;\n          z-index: -1;\n        }\n        &:hover {\n          &:before {\n            animation: ", " 8s cubic-bezier(.25, .46, .45, .94) both infinite\n          }\n          &:after {\n            animation: ", " 8s cubic-bezier(.25, .46, .45, .94) reverse both infinite\n          }\n        }\n\n        @media ", " {\n          font-size: 1.8em;\n          margin-left: 5%;\n        }\n"]);
 
   _templateObject4 = function _templateObject4() {
     return data;
@@ -237,7 +240,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n        overflow: hidden;\n        white-space: nowrap;\n        margin-left: 1.8em;\n        margin-top: 5em;\n        margin-bottom: 0;\n        font-family: 'Rubik Mono One', sans-serif;\n        font-size: 4.2em;\n        color: #F5F5F5;\n        animation: ", " ease 6s forwards;\n        &:before,\n        &:after{\n          display: block;\n          content: 'Sandra Grahl,';\n          position: absolute;\n          top: 0;\n          left: 0;\n          height: 100%;\n          width: 100%;\n          opacity: .8;\n        }\n        &:after {\n          color: #D81159;\n          z-index: -2;\n        }\n        &:before {\n          color: #2fbf71;\n          z-index: -1;\n        }\n        &:hover {\n          &:before {\n            animation: ", " 8s cubic-bezier(.25, .46, .45, .94) both infinite\n          }\n          &:after {\n            animation: ", " 8s cubic-bezier(.25, .46, .45, .94) reverse both infinite\n          }\n        }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n        overflow: hidden;\n        white-space: nowrap;\n        margin-left: 1.8em;\n        margin-top: 5em;\n        margin-bottom: 0;\n        font-family: 'Rubik Mono One', sans-serif;\n        font-size: 4.2em;\n        color: #F5F5F5;\n        animation: ", " ease 6s forwards;\n        &:before,\n        &:after{\n          display: block;\n          content: 'Sandra Grahl,';\n          position: absolute;\n          top: 0;\n          left: 0;\n          height: 100%;\n          width: 100%;\n          opacity: .8;\n        }\n        &:after {\n          color: #D81159;\n          z-index: -2;\n        }\n        &:before {\n          color: #2fbf71;\n          z-index: -1;\n        }\n        &:hover {\n          &:before {\n            animation: ", " 8s cubic-bezier(.25, .46, .45, .94) both infinite\n          }\n          &:after {\n            animation: ", " 8s cubic-bezier(.25, .46, .45, .94) reverse both infinite\n          }\n        }\n\n        @media ", " {\n          font-size: 1.8em;\n          margin-left: 5%;\n        }\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -269,12 +272,13 @@ function _templateObject() {
 
 
 
+
 var fadeInRight = Object(styled_components__WEBPACK_IMPORTED_MODULE_2__["keyframes"])(_templateObject());
 var type = Object(styled_components__WEBPACK_IMPORTED_MODULE_2__["keyframes"])(_templateObject2());
-var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templateObject3(), fadeInRight, _components_Footer__WEBPACK_IMPORTED_MODULE_4__["glitch"], _components_Footer__WEBPACK_IMPORTED_MODULE_4__["glitch"]);
-var Title2 = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templateObject4(), fadeInRight, _components_Footer__WEBPACK_IMPORTED_MODULE_4__["glitch"], _components_Footer__WEBPACK_IMPORTED_MODULE_4__["glitch"]);
-var Slogan = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].article(_templateObject5(), fadeInRight);
-var Languages = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].article(_templateObject6(), fadeInRight);
+var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templateObject3(), fadeInRight, _components_Footer__WEBPACK_IMPORTED_MODULE_4__["glitch"], _components_Footer__WEBPACK_IMPORTED_MODULE_4__["glitch"], _devices__WEBPACK_IMPORTED_MODULE_5__["device"].tablet);
+var Title2 = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templateObject4(), fadeInRight, _components_Footer__WEBPACK_IMPORTED_MODULE_4__["glitch"], _components_Footer__WEBPACK_IMPORTED_MODULE_4__["glitch"], _devices__WEBPACK_IMPORTED_MODULE_5__["device"].tablet);
+var Slogan = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].article(_templateObject5(), fadeInRight, _devices__WEBPACK_IMPORTED_MODULE_5__["device"].tablet);
+var Languages = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].article(_templateObject6(), fadeInRight, _devices__WEBPACK_IMPORTED_MODULE_5__["device"].tablet);
 var fade = Object(styled_components__WEBPACK_IMPORTED_MODULE_2__["keyframes"])(_templateObject7());
 var FirstPage = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].section(_templateObject8(), FirstPage, fade);
 
@@ -282,37 +286,37 @@ var LandingPage = function LandingPage() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(FirstPage, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135
+      lineNumber: 158
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136
+      lineNumber: 159
     },
     __self: this
   }, "Sandra Grahl,"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title2, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139
+      lineNumber: 162
     },
     __self: this
   }, "Web Developer"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Slogan, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140
+      lineNumber: 163
     },
     __self: this
   }, "Hi, I'm a london-based full-stack programmer. Let's make something"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Languages, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143
+      lineNumber: 166
     },
     __self: this
   }, "| HTML | JavaScript | Node.js | CSS | React | PostgreSQL |"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_img__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 146
+      lineNumber: 169
     },
     __self: this
   }));
@@ -339,11 +343,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _github_10_xxl_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./github-10-xxl.png */ "./components/github-10-xxl.png");
 /* harmony import */ var _github_10_xxl_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_github_10_xxl_png__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _devices__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./devices */ "./components/devices.js");
 
-var _jsxFileName = "/home/sandra/projects/next-js/components/Footer.js";
+var _jsxFileName = "/home/sandra/projects/portfolio/components/Footer.js";
 
 function _templateObject9() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  position: absolute;\n  left: 30px;\n  bottom: 97px;\n  color: #191919;\n  font-size: 2em;\n  font-family: \"Rajdhani\", sans-serif;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  position: absolute;\n  left: 23px;\n  bottom: 97px;\n  color: #191919;\n  font-size: 2em;\n  font-family: \"Rajdhani\", sans-serif;\n\n  @media ", " {\n    font-size: 1.2em;\n    bottom: 130px;\n  }\n"]);
 
   _templateObject9 = function _templateObject9() {
     return data;
@@ -353,7 +358,7 @@ function _templateObject9() {
 }
 
 function _templateObject8() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  position: absolute;\n  left: 14px;\n  bottom: 14px;\n  width: 50px;\n  height: 50px;\n  background-color: #2fbf71;\n  border: none;\n  border-radius: 30px;\n  cursor: pointer;\n  outline: none;\n  transition: all 0.3s ease;\n  z-index: -1;\n  &:hover {\n    transform: scale(17.5);\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  position: absolute;\n  left: 14px;\n  bottom: 14px;\n  width: 50px;\n  height: 50px;\n  background-color: #2fbf71;\n  border: none;\n  border-radius: 30px;\n  cursor: pointer;\n  outline: none;\n  transition: all 0.3s ease;\n  z-index: -1;\n  &:hover {\n    transform: scale(17.5);\n  }\n\n  @media ", " {\n    transform: scale(15);\n  }\n"]);
 
   _templateObject8 = function _templateObject8() {
     return data;
@@ -363,7 +368,7 @@ function _templateObject8() {
 }
 
 function _templateObject7() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  transform: translate(2200%, -190%);\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  transform: translate(2200%, -190%);\n\n  @media ", " {\n    transform: translate(290%, -360%);\n  }\n"]);
 
   _templateObject7 = function _templateObject7() {
     return data;
@@ -373,7 +378,7 @@ function _templateObject7() {
 }
 
 function _templateObject6() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  color: #f5f5f5;\n  font-size: 1.6em;\n  font-family: \"Rajdhani\", sans-serif;\n  writing-mode: vertical-rl;\n  -webkit-writing-mode: vertical-rl;\n  -ms-writing-mode: vertical-rl;\n  position: absolute;\n  top: 8em;\n  right: 1em;\n  letter-spacing: 2px;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  color: #f5f5f5;\n  font-size: 1.6em;\n  font-family: \"Rajdhani\", sans-serif;\n  writing-mode: vertical-rl;\n  -webkit-writing-mode: vertical-rl;\n  -ms-writing-mode: vertical-rl;\n  position: absolute;\n  top: 8em;\n  right: 1em;\n  letter-spacing: 2px;\n\n\n  @media ", " {\n    font-size: 1.2em;\n    right: 0.5em;\n  }\n"]);
 
   _templateObject6 = function _templateObject6() {
     return data;
@@ -383,7 +388,7 @@ function _templateObject6() {
 }
 
 function _templateObject5() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  color: #f5f5f5;\n  font-size: 2em;\n  font-family: \"Rajdhani\", sans-serif;\n  padding-left: 20%;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  color: #f5f5f5;\n  font-size: 2em;\n  font-family: \"Rajdhani\", sans-serif;\n  padding-left: 21%;\n\n  @media ", " {\n    font-size: 1.4em;\n    padding-left: 10%;\n  }\n"]);
 
   _templateObject5 = function _templateObject5() {
     return data;
@@ -393,7 +398,7 @@ function _templateObject5() {
 }
 
 function _templateObject4() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  font-family: \"Rubik Mono One\", sans-serif;\n  font-size: 2.6em;\n  color: #f5f5f5;\n  position: absolute;\n  left: 30%;\n  transform: translate(150%, -100%);\n  margin: 0;\n  text-decoration: none;\n  padding-bottom: 1em;\n  &:before,\n  &:after {\n    display: block;\n    content: \"Github\";\n    position: absolute;\n    top: 0;\n    left: 0;\n    height: 100%;\n    width: 100%;\n    opacity: 0.8;\n  }\n  &:after {\n    color: #d81159;\n    z-index: -2;\n  }\n  &:before {\n    color: #2fbf71;\n    z-index: -1;\n  }\n  &:hover {\n    &:before {\n      animation: ", " 8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;\n    }\n    &:after {\n      animation: ", " 8s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both\n        infinite;\n    }\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  font-family: \"Rubik Mono One\", sans-serif;\n  font-size: 2.6em;\n  color: #f5f5f5;\n  position: absolute;\n  left: 30%;\n  transform: translate(150%, -100%);\n  margin: 0;\n  text-decoration: none;\n  padding-bottom: 1em;\n  &:before,\n  &:after {\n    display: block;\n    content: \"Github\";\n    position: absolute;\n    top: 0;\n    left: 0;\n    height: 100%;\n    width: 100%;\n    opacity: 0.8;\n  }\n  &:after {\n    color: #d81159;\n    z-index: -2;\n  }\n  &:before {\n    color: #2fbf71;\n    z-index: -1;\n  }\n  &:hover {\n    &:before {\n      animation: ", " 8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;\n    }\n    &:after {\n      animation: ", " 8s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both\n        infinite;\n    }\n  }\n  \n  @media ", " {\n    font-size: 1.6em;\n    transform: translate(0%, -220%);\n  }\n\n"]);
 
   _templateObject4 = function _templateObject4() {
     return data;
@@ -403,7 +408,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  font-family: \"Rubik Mono One\", sans-serif;\n  font-size: 2.6em;\n  color: #f5f5f5;\n  position: absolute;\n  left: 10%;\n  transform: translate(50%, -100%);\n  margin: 0;\n  text-decoration: none;\n  padding-bottom: 1em;\n  &:before,\n  &:after {\n    display: block;\n    content: \"Contact\";\n    position: absolute;\n    top: 0;\n    left: 0;\n    height: 100%;\n    width: 100%;\n    opacity: 0.8;\n  }\n  &:after {\n    color: #d81159;\n    z-index: -2;\n  }\n  &:before {\n    color: #2fbf71;\n    z-index: -1;\n  }\n  &:hover {\n    &:before {\n      animation: ", " 8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;\n    }\n    &:after {\n      animation: ", " 8s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both\n        infinite;\n    }\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  font-family: \"Rubik Mono One\", sans-serif;\n  font-size: 2.6em;\n  color: #f5f5f5;\n  position: absolute;\n  left: 10%;\n  transform: translate(50%, -100%);\n  margin: 0;\n  text-decoration: none;\n  padding-bottom: 1em;\n  &:before,\n  &:after {\n    display: block;\n    content: \"Contact\";\n    position: absolute;\n    top: 0;\n    left: 0;\n    height: 100%;\n    width: 100%;\n    opacity: 0.8;\n  }\n  &:after {\n    color: #d81159;\n    z-index: -2;\n  }\n  &:before {\n    color: #2fbf71;\n    z-index: -1;\n  }\n  &:hover {\n    &:before {\n      animation: ", " 8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;\n    }\n    &:after {\n      animation: ", " 8s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both\n        infinite;\n    }\n  }\n\n  @media ", " {\n    font-size: 1.6em;\n    transform: translate(10%, -0%);\n  }\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -413,7 +418,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);\n  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);\n  position: relative;\n  margin-top: -5em;\n  padding-top: 18em;\n  padding-bottom: 6em;\n  background-color: #191919;\n  &:after {\n    -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);\n    clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);\n    background: #191919;\n    content: \"\";\n    position: absolute;\n    left: 0;\n    top: -82%;\n    right: 0;\n    height: 100%;\n    display: block;\n    z-index: 9;\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);\n  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);\n  position: relative;\n  margin-top: -5em;\n  padding-top: 18em;\n  padding-bottom: 6em;\n  overflow: hidden;\n  background-color: #191919;\n  &:after {\n    -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);\n    clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);\n    background: #191919;\n    content: \"\";\n    position: absolute;\n    left: 0;\n    top: -82%;\n    right: 0;\n    height: 100%;\n    display: block;\n    z-index: 9;\n  }\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -435,69 +440,78 @@ function _templateObject() {
 
 
 
+
 var glitch = Object(styled_components__WEBPACK_IMPORTED_MODULE_2__["keyframes"])(_templateObject());
 var Footer = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(_templateObject2());
-var GlitchFont = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].a(_templateObject3(), glitch, glitch);
-var GlitchFont2 = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].a(_templateObject4(), glitch, glitch);
-var Paragraph = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].p(_templateObject5());
-var Greeting = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].p(_templateObject6());
-var GithubLogo = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].img(_templateObject7());
-var ButtonSpread = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].button(_templateObject8());
-var Hidden = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].p(_templateObject9());
+var GlitchFont = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].a(_templateObject3(), glitch, glitch, _devices__WEBPACK_IMPORTED_MODULE_4__["device"].tablet);
+var GlitchFont2 = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].a(_templateObject4(), glitch, glitch, _devices__WEBPACK_IMPORTED_MODULE_4__["device"].tablet);
+var Paragraph = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].p(_templateObject5(), _devices__WEBPACK_IMPORTED_MODULE_4__["device"].tablet);
+var Greeting = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].p(_templateObject6(), _devices__WEBPACK_IMPORTED_MODULE_4__["device"].tablet);
+var GithubLogo = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].img(_templateObject7(), _devices__WEBPACK_IMPORTED_MODULE_4__["device"].tablet);
+var ButtonSpread = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].button(_templateObject8(), _devices__WEBPACK_IMPORTED_MODULE_4__["device"].tablet);
+var Hidden = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].p(_templateObject9(), _devices__WEBPACK_IMPORTED_MODULE_4__["device"].tablet);
 
 var FooterSection = function FooterSection() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Footer, {
     id: "contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 187
+      lineNumber: 224
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(GlitchFont, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 188
+      lineNumber: 225
     },
     __self: this
-  }, "Contact"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(GithubLogo, {
-    src: _github_10_xxl_png__WEBPACK_IMPORTED_MODULE_3___default.a,
-    width: "50px",
-    height: "50px",
-    alt: "Github logo",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 189
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(GlitchFont2, {
+  }, "Contact"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "https://github.com/tantsandras",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 190
+      lineNumber: 226
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(GithubLogo, {
+    src: _github_10_xxl_png__WEBPACK_IMPORTED_MODULE_3___default.a,
+    width: "50px",
+    height: "50px",
+    alt: "Link to my github",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 226
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(GlitchFont2, {
+    href: "https://github.com/tantsandras",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 227
     },
     __self: this
   }, "Github"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Paragraph, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 192
+      lineNumber: 229
     },
     __self: this
   }, "grahlsan@gmail.com"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(ButtonSpread, {
+    "aria-label": "Hovering button reveals hidden message: Feel free to say hi",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 193
+      lineNumber: 230
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Hidden, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 194
+      lineNumber: 231
     },
     __self: this
   }, "Feel free to say hi --->"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Greeting, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 195
+      lineNumber: 232
     },
     __self: this
   }, "--- Drop me a line ---"));
@@ -522,7 +536,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_styled__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/styled */ "./components/styled.js");
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Navbar */ "./components/Navbar.js");
-var _jsxFileName = "/home/sandra/projects/next-js/components/Header.js";
+var _jsxFileName = "/home/sandra/projects/portfolio/components/Header.js";
 
 
 
@@ -604,10 +618,11 @@ var Header = function Header() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _devices__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./devices */ "./components/devices.js");
 
 
 function _templateObject3() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\ndisplay: flex;\nflex-direction: row;\n\n& ", ":nth-child(1) {\n  font-size: 1.4em;\n  font-family: 'Rajdhani', sans-serif;\n  text-transform: uppercase;\n  margin: 1em;\n  color: #F5F5F5;\n  opacity: 0;\n  animation: ", " ease 0.6s forwards;\n}\n\n& ", ":nth-child(1):hover {\n  color: #ED7D3A;\n}\n  \n& ", ":nth-child(2) {\n  width: 40%;\n  margin: 2.2em 1em 1em 1em;\n  height: 0.08em;\n  background-color: #F5F5F5;\n  transform: scaleX(0);\n  transform-origin: left;\n  animation: ", " cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s forwards;\n  animation-delay: 0.8s;\n}\n\n& ", ":nth-child(3) {\n  font-size: 1.4em;\n  text-transform: uppercase;\n  font-family: 'Rajdhani', sans-serif;\n  color: #F5F5F5;\n  margin: 1em;\n  opacity: 0;\n  animation: ", " ease 1.2s forwards;\n  animation-delay: 1.6s;\n}\n\n& ", ":nth-child(3):hover {\n  color: #ED7D3A;\n}\n\n& ", ":nth-child(4) {\n  font-size: 1.4em;\n  text-transform: uppercase;\n  font-family: 'Rajdhani', sans-serif;\n  color: #F5F5F5;\n  margin: 1em;\n  opacity: 0;\n  animation: ", " ease 1.2s forwards;\n  animation-delay: 1.6s;\n}\n\n& ", ":nth-child(4):hover {\n  color: #ED7D3A;\n}\n\n& ", ":nth-child(5) {\n  font-size: 1.4em;\n  text-transform: uppercase;\n  font-family: 'Rajdhani', sans-serif;\n  color: #F5F5F5;\n  margin: 1em;\n  opacity: 0;\n  animation: ", " ease 1.2s forwards;\n  animation-delay: 1.6s;\n}\n\n& ", ":nth-child(5):hover {\n  color: #ED7D3A;\n}\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\ndisplay: flex;\nflex-direction: row;\n\n& ", ":nth-child(1) {\n  font-size: 1.4em;\n  font-family: 'Rajdhani', sans-serif;\n  text-transform: uppercase;\n  margin: 1em;\n  color: #F5F5F5;\n  opacity: 0;\n  animation: ", " ease 0.6s forwards;\n  @media ", " {\n    font-size: 1em;\n  }\n}\n\n& ", ":nth-child(1):hover {\n  color: #ED7D3A;\n  cursor: pointer; \n}\n  \n& ", ":nth-child(2) {\n  width: 40%;\n  margin: 2.2em 1em 1em 1em;\n  height: 0.08em;\n  background-color: #F5F5F5;\n  transform: scaleX(0);\n  transform-origin: left;\n  animation: ", " cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s forwards;\n  animation-delay: 0.8s;\n  @media ", " {\n    margin: 1.6em 0.2em 0.6em 0.2em;\n  }\n}\n\n& ", ":nth-child(3) {\n  font-size: 1.4em;\n  text-transform: uppercase;\n  font-family: 'Rajdhani', sans-serif;\n  color: #F5F5F5;\n  margin: 1em;\n  opacity: 0;\n  animation: ", " ease 1.2s forwards;\n  animation-delay: 1.6s;\n  @media ", " {\n    font-size: 1em;\n  }\n}\n\n& ", ":nth-child(3):hover {\n  color: #ED7D3A;\n  cursor: pointer; \n}\n\n& ", ":nth-child(4) {\n  font-size: 1.4em;\n  text-transform: uppercase;\n  font-family: 'Rajdhani', sans-serif;\n  color: #F5F5F5;\n  margin: 1em;\n  opacity: 0;\n  animation: ", " ease 1.2s forwards;\n  animation-delay: 1.6s;\n  @media ", " {\n    font-size: 1em;\n  }\n}\n\n& ", ":nth-child(4):hover {\n  color: #ED7D3A;\n  cursor: pointer; \n}\n\n& ", ":nth-child(5) {\n  font-size: 1.4em;\n  text-transform: uppercase;\n  font-family: 'Rajdhani', sans-serif;\n  color: #F5F5F5;\n  margin: 1em;\n  opacity: 0;\n  animation: ", " ease 1.2s forwards;\n  animation-delay: 1.6s;\n}\n\n& ", ":nth-child(5):hover {\n  color: #ED7D3A;\n}\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -637,9 +652,10 @@ function _templateObject() {
 }
 
 
+
 var growLeft = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["keyframes"])(_templateObject());
 var fadeInRight = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["keyframes"])(_templateObject2());
-var Navbar = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject3(), Navbar, fadeInRight, Navbar, Navbar, growLeft, Navbar, fadeInRight, Navbar, Navbar, fadeInRight, Navbar, Navbar, fadeInRight, Navbar);
+var Navbar = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject3(), Navbar, fadeInRight, _devices__WEBPACK_IMPORTED_MODULE_2__["device"].tablet, Navbar, Navbar, growLeft, _devices__WEBPACK_IMPORTED_MODULE_2__["device"].tablet, Navbar, fadeInRight, _devices__WEBPACK_IMPORTED_MODULE_2__["device"].tablet, Navbar, Navbar, fadeInRight, _devices__WEBPACK_IMPORTED_MODULE_2__["device"].tablet, Navbar, Navbar, fadeInRight, Navbar);
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
 
 /***/ }),
@@ -657,12 +673,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _devices__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./devices */ "./components/devices.js");
 
-var _jsxFileName = "/home/sandra/projects/next-js/components/ProfilePhoto.js";
+var _jsxFileName = "/home/sandra/projects/portfolio/components/ProfilePhoto.js";
 
 
 function _templateObject2() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\nobject-fit: cover;\nheight: 675px;\nwidth: 1000px;\nmax-width: 100%;\nmax-height: 100%;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\nobject-fit: cover;\nheight: 675px;\nwidth: 1000px;\nmax-width: 100%;\nmax-height: 100%;\n\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -672,7 +689,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])([" \nposition: relative;\nheight: 340px;\nwidth: 340px;\nborder-radius: 50%;\nfloat: left;\nclip-path: circle(50%);\nmargin: 0 6em 0 4em;\n-webkit-shape-outside: circle();\nshape-outside: circle();\n\n&:before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  box-shadow: inset 0px 0px 40px 5px rgba(0,0,0,0.9);\n  -moz-box-shadow: inset 0px 0px 40px 5px rgba(0,0,0,0.9);\n  -webkit-box-shadow: inset 0px 0px 40px 5px rgba(0,0,0,0.9);\n}\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])([" \nposition: relative;\nheight: 340px;\nwidth: 340px;\nborder-radius: 50%;\nfloat: left;\nclip-path: circle(50%);\nmargin: 0 6em 0 4em;\n-webkit-shape-outside: circle();\nshape-outside: circle();\n\n&:before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  box-shadow: inset 0px 0px 40px 5px rgba(0,0,0,0.9);\n  -moz-box-shadow: inset 0px 0px 40px 5px rgba(0,0,0,0.9);\n  -webkit-box-shadow: inset 0px 0px 40px 5px rgba(0,0,0,0.9);\n}\n\n    @media ", " {\n    max-width: 200px;\n    max-height: 200px;\n    margin: 0 0 0 1em;\n    }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -682,14 +699,15 @@ function _templateObject() {
 }
 
 
-var Round = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(_templateObject());
+
+var Round = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(_templateObject(), _devices__WEBPACK_IMPORTED_MODULE_3__["device"].tablet);
 var ProfilePhoto = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].img(_templateObject2());
 
 var Photo = function Photo() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Round, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 44
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(ProfilePhoto, {
@@ -697,13 +715,45 @@ var Photo = function Photo() {
     alt: "Photo of Sandra Grahl",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 45
     },
     __self: this
   }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Photo);
+
+/***/ }),
+
+/***/ "./components/devices.js":
+/*!*******************************!*\
+  !*** ./components/devices.js ***!
+  \*******************************/
+/*! exports provided: device */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "device", function() { return device; });
+var size = {
+  mobileS: '320px',
+  mobileM: '375px',
+  mobileL: '425px',
+  tablet: '800px',
+  laptop: '1024px',
+  laptopL: '1440px',
+  desktop: '2560px'
+};
+var device = {
+  mobileS: "(max-width: ".concat(size.mobileS, ")"),
+  mobileM: "(max-width: ".concat(size.mobileM, ")"),
+  mobileL: "(max-width: ".concat(size.mobileL, ")"),
+  tablet: "(max-width: ".concat(size.tablet, ")"),
+  laptop: "(max-width: ".concat(size.laptop, ")"),
+  laptopL: "(max-width: ".concat(size.laptopL, ")"),
+  desktop: "(max-width: ".concat(size.desktop, ")"),
+  desktopL: "(max-width: ".concat(size.desktop, ")")
+};
 
 /***/ }),
 
@@ -727,28 +777,47 @@ module.exports = "/_next/static/images/github-10-xxl-26343e0a5e29e4164dfdd1674e7
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _leaf_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./leaf.png */ "./components/leaf.png");
-/* harmony import */ var _leaf_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_leaf_png__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/sandra/projects/next-js/components/img.js";
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _leaf_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./leaf.png */ "./components/leaf.png");
+/* harmony import */ var _leaf_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_leaf_png__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _devices__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./devices */ "./components/devices.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+var _jsxFileName = "/home/sandra/projects/portfolio/components/img.js";
 
 
+function _templateObject() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    padding-right: 1.4em;\n    width: 607px;\n\n    @media ", " {\n    margin: 0 auto;\n    width: 250px;\n    padding-top: 4em;\n  }\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
+
+
+var Plants = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].div(_templateObject(), _devices__WEBPACK_IMPORTED_MODULE_3__["device"].tablet);
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    style: {
-      paddingRight: "2em"
-    },
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Plants, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 3
+      lineNumber: 16
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _leaf_png__WEBPACK_IMPORTED_MODULE_1___default.a,
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: _leaf_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+    style: {
+      maxWidth: "100%"
+    },
+    alt: "Monstera leaves",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4
+      lineNumber: 17
     },
     __self: this
   }));
@@ -7136,10 +7205,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fsandra%2Fprojects%2Fnext-js%2Fpages%2Findex.js!./":
-/*!*********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fsandra%2Fprojects%2Fnext-js%2Fpages%2Findex.js ***!
-  \*********************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fsandra%2Fprojects%2Fportfolio%2Fpages%2Findex.js!./":
+/*!***********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fsandra%2Fprojects%2Fportfolio%2Fpages%2Findex.js ***!
+  \***********************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14193,7 +14262,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_About__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/About */ "./components/About.js");
 /* harmony import */ var _components_FirstPage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/FirstPage */ "./components/FirstPage.js");
 /* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
-var _jsxFileName = "/home/sandra/projects/next-js/pages/index.js";
+var _jsxFileName = "/home/sandra/projects/portfolio/pages/index.js";
 
 
 
@@ -14205,7 +14274,7 @@ var Index = function Index() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     style: {
       backgroundColor: "#191919",
-      margin: "0"
+      margin: "-8px"
     },
     __source: {
       fileName: _jsxFileName,
@@ -14226,28 +14295,50 @@ var Index = function Index() {
       lineNumber: 16
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_0__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, "Sandra Grahl, web developer in London"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
+    name: "Description",
+    content: "Sandra Grahl, fullstack web developer based in London",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
+    name: "theme-color",
+    content: "#2fbf71",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_0__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_FirstPage__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 28
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_About__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 29
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_5__["FooterSection"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 30
     },
     __self: this
   }));
@@ -14258,13 +14349,13 @@ var Index = function Index() {
 /***/ }),
 
 /***/ 0:
-/*!*************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fsandra%2Fprojects%2Fnext-js%2Fpages%2Findex.js ***!
-  \*************************************************************************************************************************/
+/*!***************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fsandra%2Fprojects%2Fportfolio%2Fpages%2Findex.js ***!
+  \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fsandra%2Fprojects%2Fnext-js%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fsandra%2Fprojects%2Fnext-js%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fsandra%2Fprojects%2Fportfolio%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fsandra%2Fprojects%2Fportfolio%2Fpages%2Findex.js!./");
 
 
 /***/ }),

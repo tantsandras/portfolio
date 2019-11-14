@@ -14,5 +14,5 @@ const Plants = styled.div`
 `;
 
 export default () => <Plants>
-<img src={plants} style={{maxWidth: `100%`}} />
+<img src={plants} style={{maxWidth: `100%`}} alt="Monstera leaves" />
 </Plants>
