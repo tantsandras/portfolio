@@ -37,6 +37,8 @@ const Footer = styled.div`
   margin-top: -5em;
   padding-top: 18em;
   padding-bottom: 6em;
+  display: flex;
+  flex-direction: row;
   overflow: hidden;
   background-color: #191919;
   &:after {
@@ -56,7 +58,7 @@ const Footer = styled.div`
 
 const GlitchFont = styled.a`
   font-family: "Rubik Mono One", sans-serif;
-  font-size: 2.6em;
+  font-size: 2.2em;
   color: #f5f5f5;
   position: absolute;
   left: 10%;
@@ -95,13 +97,13 @@ const GlitchFont = styled.a`
 
   @media ${device.tablet} {
     font-size: 1.6em;
-    transform: translate(10%, -0%);
+    transform: translate(10%, -70%);
   }
 `;
 
 const GlitchFont2 = styled.a`
   font-family: "Rubik Mono One", sans-serif;
-  font-size: 2.6em;
+  font-size: 2.2em;
   color: #f5f5f5;
   position: absolute;
   left: 30%;
@@ -177,10 +179,10 @@ const Greeting = styled.p`
 `;
 
 const GithubLogo = styled.img`
-  transform: translate(2200%, -190%);
+  transform: translate(2600%, -195%);
 
   @media ${device.tablet} {
-    transform: translate(290%, -360%);
+    transform: translate(110%, -330%);
   }
 `;
 
@@ -223,7 +225,7 @@ const Hidden = styled.p`
 const FooterSection = () => (
   <Footer id="contact">
     <GlitchFont>Contact</GlitchFont>
-    <a href="https://github.com/tantsandras"><GithubLogo src={Github} width="50px" height="50px" alt="Link to my github" /></a>
+    <a href="https://github.com/tantsandras"><GithubLogo src={Github} width="40px" height="40px" alt="Link to my github" /></a>
     <GlitchFont2 href="https://github.com/tantsandras">Github</GlitchFont2>
 
     <Paragraph>grahlsan@gmail.com</Paragraph>
