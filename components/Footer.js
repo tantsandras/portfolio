@@ -36,7 +36,7 @@ const Footer = styled.div`
   position: relative;
   margin-top: -5em;
   padding-top: 18em;
-  padding-bottom: 6em;
+  padding-bottom: 8em;
   display: flex;
   flex-direction: row;
   overflow: hidden;
@@ -211,14 +211,14 @@ const ButtonSpread = styled.button`
 const Hidden = styled.p`
   position: absolute;
   left: 23px;
-  bottom: 97px;
+  bottom: 127px;
   color: #191919;
   font-size: 2em;
   font-family: "Rajdhani", sans-serif;
 
   @media ${device.tablet} {
     font-size: 1.2em;
-    bottom: 130px;
+    bottom: 160px;
   }
 `;
 

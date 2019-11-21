@@ -58,7 +58,7 @@ const Title = styled.h1`
         }
 
         @media ${device.tablet} {
-          font-size: 1.8em;
+          font-size: 1.6em;
           margin-left: 5%;
         }
 `;
@@ -102,7 +102,7 @@ const Title2 = styled.h1`
         }
 
         @media ${device.tablet} {
-          font-size: 1.8em;
+          font-size: 1.6em;
           margin-left: 5%;
         }
 `;
@@ -117,7 +117,7 @@ const Slogan = styled.article`
   z-index: 1;
 
   @media ${device.tablet} {
-    font-size: 1.2em;
+    font-size: 1em;
     margin-left: 5%;
     width: 80%;
   }
@@ -133,7 +133,7 @@ const Languages = styled.article`
   animation: ${fadeInRight} ease 6s forwards;
 
   @media ${device.tablet} {
-    font-size: 1.2em;
+    font-size: 0.8em;
     margin-left: 5%;
     width: 60%;
   }

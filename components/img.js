@@ -9,7 +9,7 @@ const Plants = styled.div`
     @media ${device.tablet} {
     margin: 0 auto;
     width: 250px;
-    padding-top: 4em;
+    padding-top: 8em;
   }
 `;
 
