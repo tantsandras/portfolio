@@ -28,7 +28,8 @@ animation: ${type} 6s steps(80, end);
 @media ${device.tablet} {
   font-size: 1em;
   padding-top: 2em;
-  margin-left: 2em;
+	margin-left: 2em;
+	text-shadow: 1px 1px #2fbf71;
 }
 `;
 
@@ -57,7 +58,7 @@ const Link = styled.a`
 const Page = styled.div`
 width: 100vw;
 height: 100vh;
-margin: 0;
+margin-top: -6%;
 padding: 0;
 position: relative;
 animation: fadeIn 500ms ease-in-out forwards;
@@ -117,7 +118,7 @@ box-shadow: 5px 0 25px 0 rgba(0, 0, 0, 0.2);
 transition: background 500ms ease-in-out;
 @media ${device.tablet} {
   width: 100vw;
-  margin-top: 20%;
+  margin-top: 10%;
   height: 90%;
 }
 `
