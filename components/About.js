@@ -1,5 +1,5 @@
 import styled, { keyframes } from "styled-components";
-import Flowers from "./IMG_3676background.jpg";
+import texture from "./diagmonds.png";
 import Photo from "./ProfilePhoto";
 import { device } from "./devices";
 
@@ -9,29 +9,15 @@ const fade = keyframes`
 `;
 
 const About = styled.section`
-// background-image: 
-// linear-gradient(90deg, rgba(0,0,0,.1) 50%, transparent 0),
-// linear-gradient(rgba(0,0,0,.1) 50%, transparent 0),
-// linear-gradient(134deg, rgba(0,0,0,.1) 50%, transparent 0);
-// -moz-linear-gradient(0deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
-// background-size: 100px 90px;
-background-color: rgba(0, 0, 0, .75);
-background-image: -webkit-linear-gradient(315deg, rgba(0, 0, 0, .7) 22px, black 22px, black 24px, transparent 24px, transparent 67px, black 67px, black 69px, transparent 69px), -webkit-linear-gradient(225deg, rgba(0, 0, 0, .7) 22px, black 22px, black 24px, transparent 24px, transparent 67px, black 67px, black 69px, transparent 69px);
-background-image: -moz-linear-gradient(315deg, rgba(0, 0, 0, .7) 22px, black 22px, black 24px, transparent 24px, transparent 67px, black 67px, black 69px, transparent 69px), -moz-linear-gradient(225deg, rgba(0, 0, 0, .7) 22px, black 22px, black 24px, transparent 24px, transparent 67px, black 67px, black 69px, transparent 69px);
-background-image: -ms-linear-gradient(315deg, rgba(0, 0, 0, .7) 22px, black 22px, black 24px, transparent 24px, transparent 67px, black 67px, black 69px, transparent 69px), -ms-linear-gradient(225deg, rgba(0, 0, 0, .7) 22px, black 22px, black 24px, transparent 24px, transparent 67px, black 67px, black 69px, transparent 69px);
-background-image: -o-linear-gradient(315deg, rgba(0, 0, 0, .7) 22px, black 22px, black 24px, transparent 24px, transparent 67px, black 67px, black 69px, transparent 69px), -o-linear-gradient(225deg, rgba(0, 0, 0, .7) 22px, black 22px, black 24px, transparent 24px, transparent 67px, black 67px, black 69px, transparent 69px);
-background-image: linear-gradient(315deg, rgba(0, 0, 0, .7) 22px, black 22px, black 24px, transparent 24px, transparent 67px, black 67px, black 69px, transparent 69px), linear-gradient(225deg, rgba(0, 0, 0, .7) 22px, black 22px, black 24px, transparent 24px, transparent 67px, black 67px, black 69px, transparent 69px);
-background-position: 0 0%, 0 64px;
-background-size: 64px 128px;
+  background-image: url('${texture}');
   margin-top: 18em;
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
   padding-bottom: 6em;
   background-repeat: repeat;
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
-  // background-repeat: no-repeat;
-  // background-size: contain;
   
 `;
 

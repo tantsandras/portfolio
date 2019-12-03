@@ -14,18 +14,19 @@ const Photo = styled.img`
   height: 663px;
   max-width: 100%;
   max-height: 100%;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(60%);
   transform: scale(1);
-  box-shadow: 5px 5px 5px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3),
+  0 10px 10px -5px rgba(0, 0, 0, 0.08);
   @media ${device.tablet} {
-    margin: 0 0 2em 0;
+    margin: 1em 10%;
   }
 `;
 
 const Frame = styled.div`
   position: relative;
-  margin: 0 auto;
+  margin-left: 60%; 
+  padding-top: 10%;
+  margin-bottom: -20%; 
   height: 250px;
   width: 500px;
   transition: all 1s ease;
@@ -36,7 +37,7 @@ const Frame = styled.div`
   @media ${device.tablet} {
     height: 125px;
     width: 250px;
-    margin: 0 0 4em -0.8em;
+    margin: 1em 2em;
   }
 `;
 
@@ -48,7 +49,7 @@ const Jo = () => {
       onMouseOver={() => setHover(true)}
       onMouseOut={() => setHover(false)}
     >
-      {hover ? <ProjectGif src="/static/Peek 2019-04-17 13-37 (1).m4v" /> : <Photo src={josBlog} />}
+      {hover ? <ProjectGif src="/static/Peek 2019-04-17 13-37 (1).m4v" /> : <Photo src={josBlog} alt="Screenshot of Rarely Jovial website" />}
     </Frame>
   );
 };
@@ -61,7 +62,7 @@ const Space = () => {
       onMouseOver={() => setHover(true)}
       onMouseOut={() => setHover(false)}
     >
-      {hover ? <ProjectGif src="/static/Peek 2019-04-17 13-39 (1).m4v" /> : <Photo src={spaceGame} />}
+      {hover ? <ProjectGif src="/static/Peek 2019-04-17 13-39 (1).m4v" /> : <Photo src={spaceGame} alt="Screenshot of Space Explorer website" />}
     </Frame>
   );
 };
@@ -87,7 +88,7 @@ const Sports = () => {
       onMouseOver={() => setHover(true)}
       onMouseOut={() => setHover(false)}
     >
-      {hover ? <ProjectGif src="/static/Peek 2019-04-17 13-48.m4v" /> : <Photo src={casualSports} />}
+      {hover ? <ProjectGif src="/static/Peek 2019-04-17 13-48.m4v" /> : <Photo src={casualSports} alt="Screenshot of Casual Sports website" />}
     </Frame>
   );
 };
@@ -100,7 +101,7 @@ const Wollstonecraft = () => {
       onMouseOver={() => setHover(true)}
       onMouseOut={() => setHover(false)}
     >
-      {hover ? <ProjectGif src="/static/wwalks.m4v" /> : <Photo src={wollstonecraft} />}
+      {hover ? <ProjectGif src="/static/wwalks.m4v" /> : <Photo src={wollstonecraft} alt="Screenshot of Wollstonecraft Walks progressive web app" />}
     </Frame>
   );
 };

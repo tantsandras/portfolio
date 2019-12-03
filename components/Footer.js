@@ -41,6 +41,7 @@ const Footer = styled.div`
   flex-direction: row;
   overflow: hidden;
   background-color: #191919;
+  z-index: 9;
   &:after {
     -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
     clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);

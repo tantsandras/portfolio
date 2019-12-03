@@ -24,7 +24,7 @@ const fadeInRight = keyframes`
 const Navbar = styled.div`
 display: flex;
 flex-direction: row;
-
+z-index: 9;
 & ${Navbar}:nth-child(1) {
   font-size: 1.4em;
   font-family: 'Rajdhani', sans-serif;
