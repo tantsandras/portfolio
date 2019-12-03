@@ -16,7 +16,7 @@ const type = keyframes`
 const ProjectTitles = styled.h1`
 font-family: 'Rubik Mono One', sans-serif;
 margin-left: 2.4em;
-padding-top: 4em;
+padding-top: 8em;
 vertical-align: bottom;
 text-transform: uppercase;
 font-size: 2em;
@@ -27,7 +27,7 @@ white-space: nowrap;
 animation: ${type} 6s steps(80, end);
 @media ${device.tablet} {
   font-size: 1em;
-  padding-top: 2em;
+  padding-top: 4em;
 	margin-left: 2em;
 	text-shadow: 1px 1px #2fbf71;
 }
