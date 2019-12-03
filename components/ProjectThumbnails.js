@@ -101,7 +101,7 @@ const Wollstonecraft = () => {
       onMouseOver={() => setHover(true)}
       onMouseOut={() => setHover(false)}
     >
-      {hover ? <ProjectGif src="/static/wwalks.m4v" /> : <Photo src={wollstonecraft} alt="Screenshot of Wollstonecraft Walks progressive web app" />}
+      {hover ? <ProjectGif src="/static/wwalks.m4v" /> : <Photo src={wollstonecraft} alt="Screenshot of Wollstonecraft Walks, progressive web app" />}
     </Frame>
   );
 };
