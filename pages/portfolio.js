@@ -11,7 +11,7 @@ import boxes from "../components/boxes.jpg"
 const slideData = [
   {
     id: 0,
-    img: `${boxes}') left 0% top 0%/80% repeat`,
+    img: `${boxes}') left 0% top 0%/80% repeat-x`,
     color: "#D81159",
     src: "https://wollstonecraftwalks.netlify.com/",
     headline: "Wollstonecraft Walks",
