@@ -29,7 +29,7 @@ animation: ${type} 6s steps(80, end);
 @media ${device.tablet} {
   font-size: 1em;
   padding-top: 4em;
-	margin-left: 2em;
+margin-left: 2.4em;
 	text-shadow: 1px 1px #2fbf71;
 }
 `;
@@ -43,8 +43,8 @@ const ProjectDescription = styled.p`
   margin-left: 3em;
   padding-right: 1.4em;
   @media ${device.tablet} {
-    font-size: 1em;
-    padding-left: 2em;
+    font-size: 0.8em;
+    padding-left: 0.8em;
     padding-right: 0.8em;
   }
 `;
@@ -118,7 +118,7 @@ box-shadow: 5px 0 25px 0 rgba(0, 0, 0, 0.2);
 transition: background 500ms ease-in-out;
 @media ${device.tablet} {
   width: 100vw;
-  margin-top: 10%;
+  margin-top: 28%;
   height: 90%;
 }
 `
