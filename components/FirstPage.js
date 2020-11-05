@@ -1,7 +1,7 @@
 import styled, { keyframes } from "styled-components";
 import Plants from "../components/img";
-import {glitch} from "../components/Footer"
-import {device} from "./devices"
+import { glitch } from "../components/Footer"
+import { device } from "./devices"
 
 const fadeInRight = keyframes`
     from {
@@ -45,7 +45,7 @@ const Title = styled.h1`
           z-index: -2;
         }
         &:before {
-          color: #2fbf71;
+          color: #44b1a1;
           z-index: -1;
         }
         &:hover {
@@ -89,7 +89,7 @@ const Title2 = styled.h1`
           z-index: -2;
         }
         &:before {
-          color: #2fbf71;
+          color: #44b1a1;
           z-index: -1;
         }
         &:hover {
@@ -128,7 +128,7 @@ const Languages = styled.article`
   font-family: "Rajdhani", sans-serif;
   margin-top: 0.6em;
   margin-left: 5.4em;
-  color: #2fbf71;
+  color: #44b1a1;
   opacity: 0;
   animation: ${fadeInRight} ease 6s forwards;
 

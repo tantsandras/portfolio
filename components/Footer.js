@@ -1,7 +1,7 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
 import Github from "./github-10-xxl.png";
-import {device} from "./devices"
+import { device } from "./devices"
 
 const glitch = keyframes`
   0% {
@@ -45,12 +45,11 @@ const Footer = styled.div`
   &:after {
     -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
     clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
-    background: #191919;
+    background-color: #191919;
     content: "";
     position: absolute;
-    left: 0;
-    top: -82%;
     right: 0;
+    bottom: 0;
     height: 100%;
     display: block;
     z-index: 9;
@@ -83,7 +82,7 @@ const GlitchFont = styled.a`
     z-index: -2;
   }
   &:before {
-    color: #2fbf71;
+    color: #44b1a1;
     z-index: -1;
   }
   &:hover {
@@ -128,7 +127,7 @@ const GlitchFont2 = styled.a`
     z-index: -2;
   }
   &:before {
-    color: #2fbf71;
+    color: #44b1a1;
     z-index: -1;
   }
   &:hover {
@@ -169,13 +168,13 @@ const Greeting = styled.p`
   -ms-writing-mode: vertical-rl;
   position: absolute;
   top: 8em;
-  right: 1em;
+  right: 0.5em;
   letter-spacing: 2px;
 
 
   @media ${device.tablet} {
     font-size: 1.2em;
-    right: 0.5em;
+    right: 0.3em;
   }
 `;
 
@@ -193,7 +192,7 @@ const ButtonSpread = styled.button`
   bottom: 14px;
   width: 50px;
   height: 50px;
-  background-color: #2fbf71;
+  background-color: #44b1a1;
   border: none;
   border-radius: 30px;
   cursor: pointer;
@@ -206,6 +205,9 @@ const ButtonSpread = styled.button`
 
   @media ${device.tablet} {
     transform: scale(15);
+    &:hover {
+      transform: scale(15);
+    }
   }
 `;
 
@@ -236,4 +238,4 @@ const FooterSection = () => (
   </Footer>
 );
 
-export { FooterSection, glitch};
+export { FooterSection, glitch };

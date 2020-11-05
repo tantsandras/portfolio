@@ -8,6 +8,7 @@ import leaves from "../components/IMG_6302 (1).jpg"
 import naranjas from "../components/naranjas.png"
 import boxes from "../components/boxes.jpg"
 
+
 const slideData = [
   {
     id: 0,
@@ -64,7 +65,7 @@ const PortfolioPage = () => (
   <div
     style={{
       backgroundColor: `#191919`,
-      margin: `-8px`
+      margin: `-8px`,
     }}
   >
     <Head>
@@ -74,11 +75,10 @@ const PortfolioPage = () => (
       />
       <title>Sandra Grahl, portfolio</title>
       <meta name="Description" content="Web developer portfolio"></meta>
-      <meta name="theme-color" content="#2fbf71" />
+      <meta name="theme-color" content="#44b1a1" />
     </Head>
-    {/* <Header /> */}
-    {/* <Grid /> */}
     <Carousel slideData={slideData} />
+
     <FooterSection />
   </div>
 );

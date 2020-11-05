@@ -1,6 +1,7 @@
 import styled, { keyframes } from "styled-components";
 import { device } from "./devices";
 import SG from "./SG (3).png"
+import Header from "../components/Header";
 
 const type = keyframes`
     from { 
@@ -16,10 +17,10 @@ const type = keyframes`
 const ProjectTitles = styled.h1`
 font-family: 'Rubik Mono One', sans-serif;
 margin-left: 2.4em;
-padding-top: 8em;
+padding-top: 2.4em;
 vertical-align: bottom;
 text-transform: uppercase;
-font-size: 2em;
+font-size: 1.8em;
 color: #f5f5f5;
 text-shadow: 2px 2px #2fbf71;
 overflow: hidden;
@@ -39,7 +40,7 @@ const ProjectDescription = styled.p`
   color: #f5f5f5;
   margin-top: 2em;
   text-align: left;
-  padding-left: 3.5em;
+  margin-left: 3em;
   padding-right: 1.4em;
   @media ${device.tablet} {
     font-size: 1em;
@@ -56,9 +57,8 @@ const Link = styled.a`
 `;
 
 const Page = styled.div`
-width: 100vw;
+width: 100%;
 height: 100vh;
-margin-top: -6%;
 padding: 0;
 position: relative;
 animation: fadeIn 500ms ease-in-out forwards;
@@ -109,9 +109,9 @@ transition: background .3s ease-in-out, opacity .3s ease-in-out;
 
 const PanelDiv = styled.aside`
 width: 40vw;
-margin-top: -470px;
+transform: translateY(-130px);
 z-index: 2;
-height: 110%;
+height: 100%;
 opacity: 0.9;
 color: #fff;
 box-shadow: 5px 0 25px 0 rgba(0, 0, 0, 0.2);
@@ -124,7 +124,7 @@ transition: background 500ms ease-in-out;
 `
 
 const PanelButton = styled.button`
-margin: 1.3rem 5rem;
+margin: 1.3em 4.2em;
 padding: 0.8em 1.3em;
 background: none;
 border: 1px solid #fff;
@@ -136,7 +136,7 @@ text-transform: uppercase;
 transition: box-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
 &:hover {
   box-shadow: inset 0 0 1.5em 1.5em #fff;
-  color: rgba(216, 17, 89);
+	color: rgba(216, 17, 89);
 }
 &:focus {
   outline: none;
@@ -152,37 +152,37 @@ class Slider extends React.Component {
 		super(props);
 		this.state = {
 			activeID: 0,
-      component: this.props.slideData[0].component,
-      wrapperStyle: {
-        background: `url('${this.props.slideData[0].img}`
-      },
+			component: this.props.slideData[0].component,
+			wrapperStyle: {
+				background: `url('${this.props.slideData[0].img}`
+			},
 			panelStyle: {
 				background: `${this.props.slideData[0].color}`
 			},
 			buttonHover: false,
 			buttonStyle: {
-				color: '#ffffff'
+				color: '#fffffff'
 			}
 		};
 	}
 	_changeActive(id) {
 		this.setState({
 			activeID: id,
-      component: this.props.slideData[id].component,
-      wrapperStyle: {
+			component: this.props.slideData[id].component,
+			wrapperStyle: {
 				background: `url('${this.props.slideData[id].img}`
-      },
+			},
 			panelStyle: {
 				backgroundColor: `${this.props.slideData[id].color}`
-			}
+			},
 		});
 	}
 	_buttonColour() {
-		if(!this.state.buttonHover){
+		if (!this.state.buttonHover) {
 			this.setState({
 				buttonHover: true,
 				buttonStyle: {
-					color: this.props.slideData[this.state.activeID].colour
+					color: this.props.slideData[this.state.activeID].color
 				}
 			});
 		} else {
@@ -196,24 +196,26 @@ class Slider extends React.Component {
 	}
 	render() {
 		return (
-      <Page>
-      <Wrapper style={this.state.wrapperStyle}>
-{this.state.component}
-				<Selectors 
-					slideData={this.props.slideData}
-					activeID={this.state.activeID}
-					_changeActive={this._changeActive.bind(this)}
-				/>
-  
-				<Panel 
-					slideData={this.props.slideData[this.state.activeID]}
-					panelStyle={this.state.panelStyle}
-					buttonStyle={this.state.buttonStyle}
-					_buttonColour={this._buttonColour.bind(this)}
-				/> 
-              
-			</Wrapper>
-      </Page>
+			<Page>
+
+				<Wrapper style={this.state.wrapperStyle}>
+					<Header />
+					{this.state.component}
+					<Selectors
+						slideData={this.props.slideData}
+						activeID={this.state.activeID}
+						_changeActive={this._changeActive.bind(this)}
+					/>
+
+					<Panel
+						slideData={this.props.slideData[this.state.activeID]}
+						panelStyle={this.state.panelStyle}
+						buttonStyle={this.state.buttonStyle}
+						_buttonColour={this._buttonColour.bind(this)}
+					/>
+
+				</Wrapper>
+			</Page>
 		);
 	}
 }
@@ -222,19 +224,20 @@ class Panel extends React.Component {
 	render() {
 		return (
 			<PanelDiv style={this.props.panelStyle}>
-      <Link
-                href={this.props.slideData.src}
-                target="_blank"
-                rel="noopener noreferrer"
-      >
-				<ProjectTitles>{this.props.slideData.headline}</ProjectTitles></Link>
+
+				<ProjectTitles>{this.props.slideData.headline}</ProjectTitles>
 				<ProjectDescription>{this.props.slideData.description}</ProjectDescription>
-				<PanelButton
-					style={this.props.buttonStyle}
-					onMouseEnter={this.props._buttonColour}
-					onMouseLeave={this.props._buttonColour}>
-					Read More
-				</PanelButton>
+				<Link
+					href={this.props.slideData.src}
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<PanelButton
+						style={this.props.buttonStyle}
+						onMouseEnter={this.props._buttonColour}
+						onMouseLeave={this.props._buttonColour}>
+						Go to website
+				</PanelButton></Link>
 			</PanelDiv>
 		);
 	}
@@ -250,8 +253,8 @@ class Selectors extends React.Component {
 	render() {
 		return (
 			<SelectorsDiv>
-				{this.props.slideData.map((item) => 
-					<Selector 
+				{this.props.slideData.map((item) =>
+					<Selector
 						key={item.id}
 						id={item.id}
 						_handleClick={this._handleClick}

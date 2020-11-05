@@ -9,7 +9,7 @@ const Index = () => (
   <div
     style={{
       backgroundColor: `#191919`,
-      margin: `-8px`
+      margin: `-8px`,
     }}
   >
     <Head>
@@ -22,12 +22,13 @@ const Index = () => (
         name="Description"
         content="Sandra Grahl, fullstack web developer based in London"
       ></meta>
-      <meta name="theme-color" content="#2fbf71" />
+      <meta name="theme-color" content="#44b1a1" />
     </Head>
     <Header />
     <LandingPage />
     <AboutPage />
     <FooterSection />
+
   </div>
 );
 
