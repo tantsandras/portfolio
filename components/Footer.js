@@ -43,8 +43,8 @@ const Footer = styled.div`
   background-color: #191919;
   z-index: 9;
   &:after {
-    -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
-    clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+    -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
     background-color: #191919;
     content: "";
     position: absolute;
@@ -56,16 +56,13 @@ const Footer = styled.div`
   }
 `;
 
-const GlitchFont = styled.a`
+const GlitchFont = styled.p`
   font-family: "Rubik Mono One", sans-serif;
-  font-size: 2.2em;
+  font-size: 1.8em;
   color: #f5f5f5;
-  position: absolute;
-  left: 10%;
-  transform: translate(50%, -100%);
-  margin: 0;
+  margin: 0.8em 2em;
+  position: relative;
   text-decoration: none;
-  padding-bottom: 1em;
   &:before,
   &:after {
     display: block;
@@ -96,21 +93,18 @@ const GlitchFont = styled.a`
   }
 
   @media ${device.tablet} {
-    font-size: 1.6em;
-    transform: translate(10%, -70%);
+    font-size: 1.4em;
+    margin-left: 10%;
   }
 `;
 
 const GlitchFont2 = styled.a`
   font-family: "Rubik Mono One", sans-serif;
-  font-size: 2.2em;
+  font-size: 1.8em;
   color: #f5f5f5;
-  position: absolute;
-  left: 30%;
-  transform: translate(150%, -100%);
-  margin: 0;
+  position: relative;
   text-decoration: none;
-  padding-bottom: 1em;
+  margin: 0.8em 2em;
   &:before,
   &:after {
     display: block;
@@ -141,21 +135,20 @@ const GlitchFont2 = styled.a`
   }
   
   @media ${device.tablet} {
-    font-size: 1.6em;
-    transform: translate(0%, -220%);
+    font-size: 1.4em;
+    margin-left: 10%;
   }
 
 `;
 
 const Paragraph = styled.p`
   color: #f5f5f5;
-  font-size: 2em;
+  font-size: 1.4em;
+  margin-left: 2em;
   font-family: "Rajdhani", sans-serif;
-  padding-left: 21%;
-
   @media ${device.tablet} {
-    font-size: 1.4em;
-    padding-left: 10%;
+    font-size: 1em;
+    margin-left: 10%;
   }
 `;
 
@@ -171,71 +164,81 @@ const Greeting = styled.p`
   right: 0.5em;
   letter-spacing: 2px;
 
-
   @media ${device.tablet} {
-    font-size: 1.2em;
+    font-size: 1em;
     right: 0.3em;
   }
 `;
 
 const GithubLogo = styled.img`
-  transform: translate(2600%, -195%);
-
-  @media ${device.tablet} {
-    transform: translate(110%, -330%);
-  }
 `;
 
 const ButtonSpread = styled.button`
-  position: absolute;
-  left: 14px;
-  bottom: 14px;
-  width: 50px;
-  height: 50px;
-  background-color: #44b1a1;
-  border: none;
-  border-radius: 30px;
-  cursor: pointer;
-  outline: none;
-  transition: all 0.3s ease;
-  z-index: -1;
-  &:hover {
-    transform: scale(17.5);
-  }
+position: absolute;
+left: 14px;
+bottom: 14px;
+width: 50px;
+height: 50px;
+background-color: #44b1a1;
+border: none;
+border-radius: 30px;
+cursor: pointer;
+outline: none;
+transition: all 0.3s ease;
+z-index: -1;
+  &: hover {
+  transform: scale(17.5);
+}
 
-  @media ${device.tablet} {
+@media ${ device.tablet} {
+  transform: scale(15);
+    &: hover {
     transform: scale(15);
-    &:hover {
-      transform: scale(15);
-    }
   }
+}
 `;
 
 const Hidden = styled.p`
-  position: absolute;
-  left: 23px;
-  bottom: 127px;
-  color: #191919;
-  font-size: 2em;
-  font-family: "Rajdhani", sans-serif;
+position: absolute;
+left: 23px;
+bottom: 127px;
+color: #191919;
+font-size: 1.4em;
+font-family: "Rajdhani", sans-serif;
 
-  @media ${device.tablet} {
-    font-size: 1.2em;
-    bottom: 160px;
-  }
+@media ${ device.tablet} {
+  font-size: 1em;
+  bottom: 160px;
+}
 `;
+
+const Row = styled.div`
+display: flex;
+flex-flow: row wrap;
+transform: translateY(-100px);
+width: 100%;
+`
+const Row2 = styled.div`
+display: flex: 
+flex-flow: row wrap;
+width: 60%;
+`
 
 const FooterSection = () => (
   <Footer id="contact">
-    <GlitchFont>Contact</GlitchFont>
-    <a href="https://github.com/tantsandras"><GithubLogo src={Github} width="40px" height="40px" alt="Link to my github" /></a>
-    <GlitchFont2 href="https://github.com/tantsandras">Github</GlitchFont2>
+    <Row>
 
-    <Paragraph>grahlsan@gmail.com</Paragraph>
-    <ButtonSpread aria-label="Hovering button reveals hidden message: Feel free to say hi" />
-    <Hidden>Feel free to say hi ---></Hidden>
-    <Greeting>--- Drop me a line ---</Greeting>
-  </Footer>
+      <GlitchFont2 href="https://github.com/tantsandras">Github <GithubLogo src={Github} width="28px" height="28px" alt="Link to my github" /></GlitchFont2>
+      <GlitchFont>Contact</GlitchFont>      <Paragraph>grahlsan@gmail.com</Paragraph>
+    </Row>
+    <Row2>
+
+      <ButtonSpread aria-label="Hovering button reveals hidden message: Feel free to say hi" />
+      <Hidden>Feel free to say hi!</Hidden>
+
+    </Row2>
+    {/* <Greeting>--- Drop me a line ---</Greeting> */}
+  </Footer >
 );
 
 export { FooterSection, glitch };

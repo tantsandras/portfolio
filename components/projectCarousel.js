@@ -17,7 +17,7 @@ const type = keyframes`
 const ProjectTitles = styled.h1`
 font-family: 'Rubik Mono One', sans-serif;
 margin-left: 2.4em;
-padding-top: 2.4em;
+padding-top: 3.4em;
 vertical-align: bottom;
 text-transform: uppercase;
 font-size: 1.8em;

@@ -36,8 +36,8 @@ const AboutContainer = styled.article`
 
     @media ${device.tablet} {
       text-align: center;
-      font-size: 1em;
-      margin-top: 7em;
+      font-size: 0.8em;
+      margin-top: 10em;
     }
   }
 
@@ -52,7 +52,7 @@ const AboutContainer = styled.article`
     padding-bottom: 2em;
 
     @media ${device.tablet} {
-      font-size: 0.8em;
+      font-size: 0.6em;
       width: 80%;
       padding-left: 10%;
     }
@@ -66,7 +66,7 @@ const AboutContainer = styled.article`
 
     @media ${device.tablet} {
       text-align: center;
-      font-size: 1em;
+      font-size: 0.8em;
       margin-top: 4em;
       padding-left: 0;
     }
@@ -83,7 +83,7 @@ const AboutContainer = styled.article`
     padding-bottom: 4em;
 
     @media ${device.tablet} {
-      font-size: 0.8em;
+      font-size: 0.6em;
       width: 80%;
       padding-left: 10%;
     }
